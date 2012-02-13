@@ -226,6 +226,7 @@ Voleu editar la pàgina existent?',
 );
 
 /** Sorani (کوردی)
+ * @author Asoxor
  * @author Marmzok
  */
 $messages['ckb'] = array(
@@ -236,7 +237,7 @@ $messages['ckb'] = array(
 	'createpage_titleexists' => 'لە پێش‌دا لاپەڕەیەک بە سەردێڕی [[$1]] دروست‌کراوە.<br />
 ئایا دەتەوێ دەستکاری ئەو لاپەڕە بکەی؟',
 	'createpage_tryagain' => 'نەخێر. دەمەوێ لاپەڕەیەکی نوێ بە سەردێڕێکی جیاوازەوە دروست‌بکەم.',
-	'createpage-badtitle' => '"$1" ناکرێت وەک سەردێڕی لاپەڕەیەک بە کاربێت',
+	'createpage-badtitle' => '«$1» ناکرێت وەک سەردێڕی پەڕەیەک بەکاربھێنرێت',
 );
 
 /** Czech (Česky)
