@@ -695,6 +695,22 @@ Wëll Dir déi Säit veränneren?',
 	'createpage-badtitle' => '"$1" kann net als Titel fir eng Säit benotzt ginn',
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'createpage' => 'Phêk siamna',
+	'uwcreatepage-desc' => 'Phêk thar siam nan [[Special:CreatePage|phêk vohbik]] a belh',
+	'createpage_submitbutton' => 'Thehluhna',
+	'createpage_instructions' => 'I phêk siam duh hming ziak rawh le:',
+	'createpage_entertitle' => 'I phêk siam tùr hming khawngaihin pe hram rawh.',
+	'createpage_titleexists' => '[[$1]] tih hming pu phêk hi a awm tawh a.
+A awmsa chu i siamţha duh em?',
+	'createpage_tryagain' => 'Aih. Hming dang pu phêk thar ka siam duh.',
+	'createpage_editexisting' => 'Aw. Phêk awmsaah ka kut ka thawh duh.',
+	'createpage-badtitle' => '"$1" hi phêk hmingah a hman theih loh tlat',
+);
+
 /** Literary Chinese (文言) */
 $messages['lzh'] = array(
 	'createpage' => '建新頁',
