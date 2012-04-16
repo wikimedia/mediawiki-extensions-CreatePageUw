@@ -37,17 +37,6 @@ $messages['qqq'] = array(
 	'createpage-badtitle' => 'Error message displayed in CreatePage special page when is specified an invalid title. See for example [[Special:CreatePage/]]',
 );
 
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'createpage' => 'Сәһифә офәјеј',
-	'uwcreatepage-desc' => 'Зијод кардеј [[Special:CreatePage|хымәтә сәһифә]] бо тожә сәһифон сохте',
-	'createpage_submitbutton' => 'Вығәндеј',
-	'createpage_entertitle' => 'Зәһмәт ныбо ыштә сәһифә номи бынывыштән',
-	'createpage_tryagain' => 'Не. Аз пијејдәме тожә сәһифә сохте де ҹо номи.',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Naudefj
  */
@@ -866,6 +855,14 @@ $messages['pdc'] = array(
 	'createpage' => 'Neies Blatt schtaerte',
 );
 
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
+	'createpage_tryagain' => 'Nä, isch meschd ä naiji Said midem onare Tidel oalesche.',
+	'createpage_editexisting' => 'Ja, isch meschd onde Said schaffe.',
+);
+
 /** Polish (Polski)
  * @author Leinad
  */
@@ -1193,6 +1190,17 @@ Nais mo bang baguhin ang umiiral na pahina?',
 	'createpage_tryagain' => 'Hindi.  Nais kong lumikha ng isang bagong pahinang may isang bukod na pamagat.',
 	'createpage_editexisting' => 'Oo. Ibig kong magambag sa umiiral na pahina.',
 	'createpage-badtitle' => 'Hindi magagamit ang "$1" bilang pamagat ng isang pahina',
+);
+
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'createpage' => 'Сәһифә офәјеј',
+	'uwcreatepage-desc' => 'Зијод кардеј [[Special:CreatePage|хымәтә сәһифә]] бо тожә сәһифон сохте',
+	'createpage_submitbutton' => 'Вығәндеј',
+	'createpage_entertitle' => 'Зәһмәт ныбо ыштә сәһифә номи бынывыштән',
+	'createpage_tryagain' => 'Не. Аз пијејдәме тожә сәһифә сохте де ҹо номи.',
 );
 
 /** Turkish (Türkçe)
