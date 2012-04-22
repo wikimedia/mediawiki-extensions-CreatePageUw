@@ -110,6 +110,22 @@ $messages['arz'] = array(
 	'createpage-badtitle' => 'لا بمكن إستخدامه كعنوان للصفحة "$1"',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'createpage' => 'Crear una páxina',
+	'uwcreatepage-desc' => 'Amiesta una [[Special:CreatePage|páxina especial]] pa crear páxines nueves',
+	'createpage_submitbutton' => 'Unviar',
+	'createpage_instructions' => "Escribi'l títulu de la páxina que quies crear:",
+	'createpage_entertitle' => 'Por favor, escribi un títulu pa la páxina.',
+	'createpage_titleexists' => 'Yá esiste una páxina titulada «[[$1]]».
+¿Quies editar la páxina esistente?',
+	'createpage_tryagain' => 'Non. Quiero crear una páxina nueva con un títulu distintu.',
+	'createpage_editexisting' => 'Si. Quiero contribuir na páxina esistente.',
+	'createpage-badtitle' => '"$1" nun se pue usar como títulu de páxina',
+);
+
 /** Bavarian (Boarisch)
  * @author Mucalexx
  */
