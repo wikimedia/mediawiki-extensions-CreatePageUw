@@ -299,6 +299,13 @@ $messages['de-formal'] = array(
 Möchten Sie die existierende Seite bearbeiten?',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'createpage_submitbutton' => 'Bırşe',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
