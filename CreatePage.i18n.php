@@ -834,6 +834,7 @@ Wilt u de bestaande pagina bewerken?',
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'createpage' => 'Opprett ei sida',
@@ -1215,7 +1216,7 @@ Nais mo bang baguhin ang umiiral na pahina?',
 	'createpage-badtitle' => 'Hindi magagamit ang "$1" bilang pamagat ng isang pahina',
 );
 
-/** толышә зывон (толышә зывон)
+/** Толышә зывон (Толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -1276,7 +1277,7 @@ $messages['vec'] = array(
 	'createpage-badtitle' => 'No se pol doparar "$1" come titolo de pagina',
 );
 
-/** Veps (Vepsän kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
