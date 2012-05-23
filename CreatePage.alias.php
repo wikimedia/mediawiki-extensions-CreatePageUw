@@ -40,6 +40,11 @@ $specialPageAliases['bg'] = array(
 	'CreatePage' => array( 'Създаване_на_страница' ),
 );
 
+/** Banjar (Bahasa Banjar) */
+$specialPageAliases['bjn'] = array(
+	'CreatePage' => array( 'Ulah_tungkaran' ),
+);
+
 /** Breton (Brezhoneg) */
 $specialPageAliases['br'] = array(
 	'CreatePage' => array( 'KrouiñPajenn' ),
@@ -53,6 +58,11 @@ $specialPageAliases['bs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'CreatePage' => array( 'Seite_erstellen' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'CreatePage' => array( 'PelaVıraze' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -97,7 +107,7 @@ $specialPageAliases['gl'] = array(
 
 /** Swiss German (Alemannisch) */
 $specialPageAliases['gsw'] = array(
-	'CreatePage' => array( 'Syte aalege' ),
+	'CreatePage' => array( 'Syte_aalege' ),
 );
 
 /** Croatian (Hrvatski) */
@@ -152,7 +162,7 @@ $specialPageAliases['km'] = array(
 
 /** Korean (한국어) */
 $specialPageAliases['ko'] = array(
-	'CreatePage' => array( '새문서만들기' ),
+	'CreatePage' => array( '문서만들기' ),
 );
 
 /** Colognian (Ripoarisch) */
