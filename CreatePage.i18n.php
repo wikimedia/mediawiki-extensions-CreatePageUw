@@ -623,17 +623,18 @@ Si desidera modificare la pagina esistente?',
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Hosiryuhosi
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'createpage' => 'ページ作成',
 	'uwcreatepage-desc' => '新しいページを作成するための[[Special:CreatePage|特別ページ]]を追加する',
 	'createpage_submitbutton' => '送信',
-	'createpage_instructions' => '作成したいページの名前を入力:',
-	'createpage_entertitle' => 'ページの名前を入力してください。',
+	'createpage_instructions' => '作成したいページの名前を入力：',
+	'createpage_entertitle' => 'ページ名を入力してください。',
 	'createpage_titleexists' => '[[$1]] という名前のページは既に存在します。既存のページを編集しますか？',
 	'createpage_tryagain' => 'いいえ。別の名前でページを新規作成します。',
 	'createpage_editexisting' => 'はい。既存のページへ投稿します。',
-	'createpage-badtitle' => '「$1」はページ名に使えません。',
+	'createpage-badtitle' => '「$1」はページ名に使用できません',
 );
 
 /** Javanese (Basa Jawa)
@@ -1216,13 +1217,13 @@ Nais mo bang baguhin ang umiiral na pahina?',
 	'createpage-badtitle' => 'Hindi magagamit ang "$1" bilang pamagat ng isang pahina',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
 	'createpage' => 'Сәһифә офәјеј',
 	'uwcreatepage-desc' => 'Зијод кардеј [[Special:CreatePage|хымәтә сәһифә]] бо тожә сәһифон сохте',
-	'createpage_submitbutton' => 'Вығәндеј',
+	'createpage_submitbutton' => 'Вығандеј',
 	'createpage_entertitle' => 'Зәһмәт ныбо ыштә сәһифә номи бынывыштән',
 	'createpage_tryagain' => 'Не. Аз пијејдәме тожә сәһифә сохте де ҹо номи.',
 );
