@@ -30,12 +30,12 @@ $specialPageAliases['arz'] = array(
 	'CreatePage' => array( 'اعمل_صفحه' ),
 );
 
-/** Azerbaijani (Azərbaycanca) */
+/** Azerbaijani (azərbaycanca) */
 $specialPageAliases['az'] = array(
 	'CreatePage' => array( 'SəhifəYarat' ),
 );
 
-/** Bulgarian (Български) */
+/** Bulgarian (български) */
 $specialPageAliases['bg'] = array(
 	'CreatePage' => array( 'Създаване_на_страница' ),
 );
@@ -45,12 +45,12 @@ $specialPageAliases['bjn'] = array(
 	'CreatePage' => array( 'Ulah_tungkaran' ),
 );
 
-/** Breton (Brezhoneg) */
+/** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'CreatePage' => array( 'KrouiñPajenn' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'CreatePage' => array( 'NapraviStranicu' ),
 );
@@ -75,7 +75,7 @@ $specialPageAliases['eo'] = array(
 	'CreatePage' => array( 'Krei_paĝon' ),
 );
 
-/** Spanish (Español) */
+/** Spanish (español) */
 $specialPageAliases['es'] = array(
 	'CreatePage' => array( 'Crear_página', 'CrearPágina' ),
 );
@@ -85,12 +85,12 @@ $specialPageAliases['fa'] = array(
 	'CreatePage' => array( 'ایجاد_صفحه' ),
 );
 
-/** French (Français) */
+/** French (français) */
 $specialPageAliases['fr'] = array(
 	'CreatePage' => array( 'Créer_page', 'CréerPage' ),
 );
 
-/** Franco-Provençal (Arpetan) */
+/** Franco-Provençal (arpetan) */
 $specialPageAliases['frp'] = array(
 	'CreatePage' => array( 'Fâre_una_pâge', 'FâreUnaPâge' ),
 );
@@ -110,7 +110,7 @@ $specialPageAliases['gsw'] = array(
 	'CreatePage' => array( 'Syte_aalege' ),
 );
 
-/** Croatian (Hrvatski) */
+/** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'CreatePage' => array( 'Započni_stranicu' ),
 );
@@ -125,12 +125,12 @@ $specialPageAliases['ht'] = array(
 	'CreatePage' => array( 'KreyePaj' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'CreatePage' => array( 'Oldalkészítés', 'Oldal_készítése' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'CreatePage' => array( 'Crear_pagina' ),
 );
@@ -140,7 +140,7 @@ $specialPageAliases['id'] = array(
 	'CreatePage' => array( 'Buat_halaman', 'BuatHalaman' ),
 );
 
-/** Italian (Italiano) */
+/** Italian (italiano) */
 $specialPageAliases['it'] = array(
 	'CreatePage' => array( 'CreaPagina' ),
 );
@@ -170,7 +170,7 @@ $specialPageAliases['ksh'] = array(
 	'CreatePage' => array( 'Sigge_aanlääje', 'Sigg_aanlääje' ),
 );
 
-/** Cornish (Kernowek) */
+/** Cornish (kernowek) */
 $specialPageAliases['kw'] = array(
 	'CreatePage' => array( 'GwruthylFolen' ),
 );
@@ -185,17 +185,17 @@ $specialPageAliases['lb'] = array(
 	'CreatePage' => array( 'Säiten_uleeën' ),
 );
 
-/** Lumbaart (Lumbaart) */
+/** lumbaart (lumbaart) */
 $specialPageAliases['lmo'] = array(
 	'CreatePage' => array( 'FaSüPagina' ),
 );
 
-/** Lithuanian (Lietuvių) */
+/** Lithuanian (lietuvių) */
 $specialPageAliases['lt'] = array(
 	'CreatePage' => array( 'Kurti puslapį' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'CreatePage' => array( 'СоздајСтраница' ),
 );
@@ -215,7 +215,7 @@ $specialPageAliases['mt'] = array(
 	'CreatePage' => array( 'OħloqPaġna' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'CreatePage' => array( 'Opprett_side' ),
 );
@@ -230,7 +230,7 @@ $specialPageAliases['nl'] = array(
 	'CreatePage' => array( 'PaginaAanmaken' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'CreatePage' => array( 'UtwórzStronę' ),
 );
@@ -240,7 +240,7 @@ $specialPageAliases['ps'] = array(
 	'CreatePage' => array( 'مخ جوړول', 'CreatPage' ),
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'CreatePage' => array( 'Criar_página' ),
 );
@@ -250,12 +250,12 @@ $specialPageAliases['sa'] = array(
 	'CreatePage' => array( 'पृष्ठस्यसृजन' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'CreatePage' => array( 'VytvoriťStránku' ),
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
 $specialPageAliases['sr-ec'] = array(
 	'CreatePage' => array( 'Направи_страницу' ),
 );
@@ -265,7 +265,7 @@ $specialPageAliases['su'] = array(
 	'CreatePage' => array( 'JieunKaca' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'CreatePage' => array( 'Skapa_sida' ),
 );
@@ -295,12 +295,17 @@ $specialPageAliases['tr'] = array(
 	'CreatePage' => array( 'SayfaOluştur' ),
 );
 
-/** Tatar (Cyrillic script) (Татарча) */
+/** Tatar (Cyrillic script) (татарча) */
 $specialPageAliases['tt-cyrl'] = array(
 	'CreatePage' => array( 'Битне_үзгәртү' ),
 );
 
-/** Vèneto (Vèneto) */
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'CreatePage' => array( 'Створити_сторінку' ),
+);
+
+/** vèneto (vèneto) */
 $specialPageAliases['vec'] = array(
 	'CreatePage' => array( 'CreaPagina' ),
 );
@@ -310,12 +315,12 @@ $specialPageAliases['vi'] = array(
 	'CreatePage' => array( 'Tạo_trang' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'CreatePage' => array( '创建页面' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'CreatePage' => array( '創建頁面' ),
 );
