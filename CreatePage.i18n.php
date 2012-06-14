@@ -110,7 +110,7 @@ $messages['arz'] = array(
 	'createpage-badtitle' => 'لا بمكن إستخدامه كعنوان للصفحة "$1"',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -159,7 +159,7 @@ $messages['be-tarask'] = array(
 	'createpage-badtitle' => 'Немагчыма выкарыстоўваць «$1» у якасьці назвы старонкі',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -181,7 +181,7 @@ $messages['bn'] = array(
 	'createpage' => 'পাতা তৈরি কর',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -197,7 +197,7 @@ Ha fellout a ra deoc'h degas kemmoù war ar bajenn-se ?",
 	'createpage-badtitle' => 'N\'haller ket ober gant "$1" da ditl ur bajenn',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -213,7 +213,7 @@ Da li želite uređivati postojeću stranicu?',
 	'createpage-badtitle' => '"$1" se ne može koristiti kao naslov stranice',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  * @author Solde
  */
@@ -230,7 +230,7 @@ Voleu editar la pàgina existent?',
 	'createpage-badtitle' => '«$1» no es pot utilitzar com a títol de pàgina',
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Asoxor
  * @author Marmzok
  */
@@ -245,7 +245,7 @@ $messages['ckb'] = array(
 	'createpage-badtitle' => '«$1» ناکرێت وەک سەردێڕی پەڕەیەک بەکاربھێنرێت',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
@@ -355,7 +355,7 @@ $messages['eo'] = array(
 	'createpage-badtitle' => '"$1" ne povas esti uzata kiel paĝa titolo',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  */
 $messages['es'] = array(
@@ -370,7 +370,7 @@ $messages['es'] = array(
 	'createpage-badtitle' => '"$1" no puede ser usada como un título de página',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  * @author Pikne
  */
@@ -383,7 +383,7 @@ Kas soovid redigeerida olemasolevat lehekülge?',
 	'createpage_editexisting' => 'Jah. Soovin redigeerida olemasolevat lehekülge.',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  */
@@ -408,7 +408,7 @@ $messages['fa'] = array(
 	'createpage-badtitle' => '«$1» نمی‌تواند برای عنوان یک صفحه استفاده شود',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Cimon Avaro
  * @author Crt
  * @author Str4nd
@@ -426,7 +426,7 @@ Haluatko muokata olemassa olevaa sivua?',
 	'createpage-badtitle' => 'Nimeä ”$1” ei voi käyttää sivun nimenä.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author IAlex
  * @author PieRRoMaN
@@ -445,7 +445,7 @@ Désirez-vous modifier la page existante ?',
 	'createpage-badtitle' => '« $1 » ne peut pas être utilisé comme nom de page',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author Cedric31
  * @author ChrisPtDe
  */
@@ -516,7 +516,7 @@ $messages['he'] = array(
 	'createpage-badtitle' => '"$1" אינו כותרת תקינה לדף',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author SpeedyGonsales
  */
 $messages['hr'] = array(
@@ -539,7 +539,7 @@ By rady eksistowacu stronu wobdźěłał?',
 	'createpage-badtitle' => '"$1" njeda so jako titul strony wužiwać.',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
@@ -555,7 +555,7 @@ Szeretnéd szerkeszteni ezt a lapot?',
 	'createpage-badtitle' => '„$1” nem használható a lap címeként',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -604,7 +604,7 @@ $messages['io'] = array(
 	'createpage_submitbutton' => 'Sendez',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -737,7 +737,7 @@ $messages['mhr'] = array(
 	'createpage' => 'Лаштыкым ышташ',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
  */
@@ -754,7 +754,7 @@ $messages['mk'] = array(
 	'createpage-badtitle' => '"$1" не може да се искористи како наслов на страница',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -833,7 +833,7 @@ Wilt u de bestaande pagina bewerken?',
 	'createpage-badtitle' => '"$1" kan niet gebruikt worden als paginanaam',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -850,7 +850,7 @@ Vil du endra denne?',
 	'createpage-badtitle' => '«$1» kan ikkje bli nytta som sidetittel',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -888,7 +888,7 @@ $messages['pfl'] = array(
 	'createpage_editexisting' => 'Ja, isch meschd onde Said schaffe.',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Leinad
  */
 $messages['pl'] = array(
@@ -939,7 +939,7 @@ $messages['ps'] = array(
 	'createpage_editexisting' => 'هو، زه غواړم چې په همدې مخ کې ونډې ترسره کړم.',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  */
@@ -956,7 +956,7 @@ Deseja editar a página existente?',
 	'createpage-badtitle' => '"$1" não pode ser usado como título de página',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -971,7 +971,7 @@ $messages['pt-br'] = array(
 	'createpage-badtitle' => '"$1" não pode ser usado como título de página',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  * @author Minisarm
  */
@@ -988,7 +988,7 @@ Doriți să modificați pagina existentă?',
 	'createpage-badtitle' => '"$1" nu poate fi folosit drept titlu',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1004,7 +1004,7 @@ No è ca vuè ccù cange 'a pàgena esistende?",
 	'createpage-badtitle' => '"$1" non ge pò essere ausate cumme titele de \'na pàgene',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author Александр Сигачёв
  */
@@ -1021,7 +1021,7 @@ $messages['ru'] = array(
 	'createpage-badtitle' => '«$1» нельзя использовать как заголовок страницы',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -1045,7 +1045,7 @@ $messages['si'] = array(
 	'createpage-badtitle' => '"$1" පිටු මාතෘකාවක් ලෙස භාවිතා කළ නොහැක',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1061,7 +1061,7 @@ $messages['sk'] = array(
 	'createpage-badtitle' => '„$1“ nemožno použiť ako názov stránky',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1077,7 +1077,7 @@ $messages['sl'] = array(
 	'createpage-badtitle' => '»$1« ni mogoče uporabiti kot naslov strani',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -1095,7 +1095,7 @@ $messages['sr-ec'] = array(
 	'createpage-badtitle' => '"$1" не може бити употребљен као наслов стране',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Rancher
  * @author Жељко Тодоровић
@@ -1129,7 +1129,7 @@ Moatest Du ju bestoundene Siede beoarbaidje?',
 	'createpage-badtitle' => '"$1" kon nit as Siedentittel bruukt wäide',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Gabbe.g
  * @author Najami
  * @author Rotsee
@@ -1254,7 +1254,7 @@ $messages['ug-arab'] = array(
 	'createpage_instructions' => 'قۇرماقچى بولغان بېتىڭىزنىڭ ماۋزۇسىنى كىرگۈزۈڭ:',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Aleksandrit
  */
 $messages['uk'] = array(
@@ -1270,7 +1270,7 @@ $messages['uk'] = array(
 	'createpage-badtitle' => '«$1» не можна використовувати як заголовок сторінки',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -1357,7 +1357,7 @@ $messages['yue'] = array(
 	'createpage-badtitle' => '『$1』唔可以用做頁標題',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gzdavidwong
  * @author Xiaomingyan
  */
@@ -1368,7 +1368,7 @@ $messages['zh-hans'] = array(
 	'createpage-badtitle' => '“$1”无法用作页面标题',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  * @author Wrightbus
  */
