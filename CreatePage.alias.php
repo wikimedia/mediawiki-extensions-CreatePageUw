@@ -30,6 +30,11 @@ $specialPageAliases['arz'] = array(
 	'CreatePage' => array( 'اعمل_صفحه' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'CreatePage' => array( 'পৃষ্ঠা_সৃষ্টি' ),
+);
+
 /** Azerbaijani (azərbaycanca) */
 $specialPageAliases['az'] = array(
 	'CreatePage' => array( 'SəhifəYarat' ),
@@ -65,7 +70,7 @@ $specialPageAliases['diq'] = array(
 	'CreatePage' => array( 'PelaVıraze' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'CreatePage' => array( 'Bok napóraś' ),
 );
@@ -100,7 +105,7 @@ $specialPageAliases['gag'] = array(
 	'CreatePage' => array( 'SayfaYarat', 'YazıYarat', 'YaprakYarat' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'CreatePage' => array( 'Crear_a_páxina' ),
 );
@@ -115,7 +120,7 @@ $specialPageAliases['hr'] = array(
 	'CreatePage' => array( 'Započni_stranicu' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'CreatePage' => array( 'Stronu wutworić' ),
 );
