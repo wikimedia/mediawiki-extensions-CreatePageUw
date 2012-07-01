@@ -60,7 +60,7 @@ $messages['aln'] = array(
 	'createpage-badtitle' => '"$1" nuk mund të përdoret si një titull në faqe',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -142,7 +142,7 @@ Mechadst de existirate Seiten beorwaten?',
 	'createpage-badtitle' => '„$1“ kå ned ois Seitentitl gnutzt wern',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -306,7 +306,7 @@ $messages['diq'] = array(
 	'createpage_submitbutton' => 'Bırşe',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -460,7 +460,7 @@ $messages['frp'] = array(
 	'createpage-badtitle' => '« $1 » pôt pas étre utilisâ coment nom de pâge',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -523,7 +523,7 @@ $messages['hr'] = array(
 	'createpage' => 'Započni ovu stranicu',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
