@@ -685,6 +685,13 @@ Wells De di Sigg ändere?',
 	'createpage-badtitle' => '„$1“ es als ene Tittel för en Sigg nit ze bruche',
 );
 
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'createpage_submitbutton' => 'Tomar bike',
+);
+
 /** Latin (Latina)
  * @author UV
  */
