@@ -292,7 +292,7 @@ $specialPageAliases['th'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'CreatePage' => array( 'Likhain ang pahina', 'LikhaPahina' ),
+	'CreatePage' => array( 'Likhain_ang_pahina', 'LikhaPahina' ),
 );
 
 /** Turkish (Türkçe) */
