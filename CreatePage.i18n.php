@@ -737,7 +737,7 @@ $messages['lzh'] = array(
 	'createpage-badtitle' => '「$1」無頁題用也',
 );
 
-/** Eastern Mari (Олык Марий)
+/** Eastern Mari (олык марий)
  * @author Сай
  */
 $messages['mhr'] = array(
@@ -784,7 +784,7 @@ Adakah anda inging menyunting laman yang sedia ada itu?',
 	'createpage-badtitle' => '"$1" tidak boleh digunakan sebagai tajuk laman',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -792,7 +792,7 @@ $messages['myv'] = array(
 	'createpage_submitbutton' => 'Максомс',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1285,7 +1285,7 @@ $messages['vec'] = array(
 	'createpage-badtitle' => 'No se pol doparar "$1" come titolo de pagina',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
