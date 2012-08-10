@@ -402,9 +402,11 @@ Sortutako orria aldatu nahiko al zenuke?',
 
 /** Persian (فارسی)
  * @author Huji
+ * @author Mjbmr
  */
 $messages['fa'] = array(
 	'createpage' => 'ایجاد یک صفحه',
+	'createpage_submitbutton' => 'ثبت',
 	'createpage-badtitle' => '«$1» نمی‌تواند برای عنوان یک صفحه استفاده شود',
 );
 
