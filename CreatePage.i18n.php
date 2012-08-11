@@ -75,7 +75,7 @@ $messages['an'] = array(
 $messages['ar'] = array(
 	'createpage' => 'أنشئ صفحة',
 	'uwcreatepage-desc' => 'يضيف [[Special:CreatePage|صفحة خاصة]] لإنشاء صفحات جديدة',
-	'createpage_submitbutton' => 'أرسل',
+	'createpage_submitbutton' => 'إرسال',
 	'createpage_instructions' => 'أدخل عنوان الصفحة التي تريد إنشاءها',
 	'createpage_entertitle' => 'من فضلك أدخل عنوان لصفحتك',
 	'createpage_titleexists' => 'صفحة بالعنوان [[$1]] موجودة بالفعل.
@@ -652,6 +652,14 @@ $messages['jv'] = array(
 Apa panjenengan arep nyunting kaca iki?',
 	'createpage_tryagain' => 'Ora. Aku arep gawé kaca anyar kanthi judhul liya.',
 	'createpage_editexisting' => 'Iya. Aku arep ngisi kaca sing ana iki.',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'createpage' => 'გვერდის შექმნა',
+	'createpage_submitbutton' => 'მიღება',
 );
 
 /** Khmer (ភាសាខ្មែរ)
