@@ -1038,6 +1038,13 @@ $messages['ru'] = array(
 	'createpage-badtitle' => '«$1» нельзя использовать как заголовок страницы',
 );
 
+/** Rusyn (русиньскый)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'createpage' => 'Створити сторінку',
+);
+
 /** Sakha (саха тыла)
  * @author HalanTul
  */
