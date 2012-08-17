@@ -1294,6 +1294,14 @@ $messages['uk'] = array(
 	'createpage-badtitle' => '«$1» не можна використовувати як заголовок сторінки',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'createpage' => 'ایک صفحے کی تخلیق',
+	'createpage_submitbutton' => 'جمع کرائیں',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
