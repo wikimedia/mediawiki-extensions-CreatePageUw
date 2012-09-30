@@ -303,6 +303,7 @@ Möchten Sie die existierende Seite bearbeiten?',
  * @author Erdemaslancan
  */
 $messages['diq'] = array(
+	'createpage' => 'Pela vırazê',
 	'createpage_submitbutton' => 'Bırşe',
 );
 
