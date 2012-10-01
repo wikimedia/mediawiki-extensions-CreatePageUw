@@ -630,11 +630,12 @@ Si desidera modificare la pagina esistente?',
  */
 $messages['ja'] = array(
 	'createpage' => 'ページ作成',
-	'uwcreatepage-desc' => '新しいページを作成するための[[Special:CreatePage|特別ページ]]を追加する',
+	'uwcreatepage-desc' => 'ページを新規作成するための[[Special:CreatePage|特別ページ]]を追加する',
 	'createpage_submitbutton' => '送信',
 	'createpage_instructions' => '作成したいページの名前を入力：',
 	'createpage_entertitle' => 'ページ名を入力してください。',
-	'createpage_titleexists' => '[[$1]] という名前のページは既に存在します。既存のページを編集しますか？',
+	'createpage_titleexists' => '[[$1]] という名前のページは既に存在します。
+既存のページを編集しますか?',
 	'createpage_tryagain' => 'いいえ。別の名前でページを新規作成します。',
 	'createpage_editexisting' => 'はい。既存のページへ投稿します。',
 	'createpage-badtitle' => '「$1」はページ名に使用できません',
