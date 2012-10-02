@@ -142,7 +142,7 @@ Mechadst de existirate Seiten beorwaten?',
 	'createpage-badtitle' => '„$1“ kå ned ois Seitentitl gnutzt wern',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -288,7 +288,7 @@ Möchtest du die existierende Seite bearbeiten?',
 	'createpage-badtitle' => '„$1“ kann nicht als Seitentitel genutzt werden',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Imre
  * @author Umherirrender
  */
@@ -697,7 +697,7 @@ Wells De di Sigg ändere?',
 	'createpage-badtitle' => '„$1“ es als ene Tittel för en Sigg nit ze bruche',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -804,7 +804,7 @@ $messages['myv'] = array(
 	'createpage_submitbutton' => 'Максомс',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -852,7 +852,7 @@ Wilt u de bestaande pagina bewerken?',
 	'createpage-badtitle' => '"$1" kan niet gebruikt worden als paginanaam',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -1103,7 +1103,7 @@ $messages['sl'] = array(
 	'createpage-badtitle' => '»$1« ni mogoče uporabiti kot naslov strani',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -1121,7 +1121,7 @@ $messages['sr-ec'] = array(
 	'createpage-badtitle' => '"$1" не може бити употребљен као наслов стране',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Rancher
  * @author Жељко Тодоровић
@@ -1391,7 +1391,7 @@ $messages['yue'] = array(
 	'createpage-badtitle' => '『$1』唔可以用做頁標題',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  * @author Xiaomingyan
  */
@@ -1402,7 +1402,7 @@ $messages['zh-hans'] = array(
 	'createpage-badtitle' => '“$1”无法用作页面标题',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  * @author Wrightbus
  */
