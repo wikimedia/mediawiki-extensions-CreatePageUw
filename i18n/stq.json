@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"createpage": "Näie Sieden moakje",
+	"uwcreatepage-desc": "Föiget ne [[Special:CreatePage|Spezioalsiede]] foar dät Moakjen fon näie Sieden bietou",
+	"createpage-instructions": "Reek dän Noome fon dän tou moakjene Siede ien:",
+	"createpage-titleexists": "Ne Siede mäd dän Noome [[$1]] bestoant al.\nMoatest Du ju bestoundene Siede beoarbaidje?",
+	"createpage-tryagain": "Noa - Iek moate ne näie Siede mäd n uur Tittel anlääse.",
+	"createpage-editexisting": "Jee - Iek moate ju bestoundene Siede beoarbaidje."
+}

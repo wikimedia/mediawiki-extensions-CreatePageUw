@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Malafaya"
+		]
+	},
+	"createpage": "Criar uma página",
+	"uwcreatepage-desc": "Adiciona uma [[Special:CreatePage|página especial]] para criar novas páginas",
+	"createpage-instructions": "Introduza o título da página que pretende criar:",
+	"createpage-titleexists": "Um página com o título [[$1]] já existe.\nDeseja editar a página existente?",
+	"createpage-tryagain": "Não. Quero criar uma nova página com um título diferente.",
+	"createpage-editexisting": "Sim. Quero contribuir para a página existente."
+}

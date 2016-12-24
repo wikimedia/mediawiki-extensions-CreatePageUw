@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"RMizo"
+		]
+	},
+	"createpage": "Phêk siamna",
+	"uwcreatepage-desc": "Phêk thar siam nan [[Special:CreatePage|phêk vohbik]] a belh",
+	"createpage-instructions": "I phêk siam duh hming ziak rawh le:",
+	"createpage-titleexists": "[[$1]] tih hming pu phêk hi a awm tawh a.\nA awmsa chu i siamţha duh em?",
+	"createpage-tryagain": "Aih. Hming dang pu phêk thar ka siam duh.",
+	"createpage-editexisting": "Aw. Phêk awmsaah ka kut ka thawh duh."
+}

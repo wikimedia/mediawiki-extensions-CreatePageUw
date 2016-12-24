@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"createpage": "Lumikha ng isang pahina",
+	"uwcreatepage-desc": "Nagdaragdag ng isang [[Special:CreatePage|natatanging pahina]] para sa paglikha ng bagong mga pahina",
+	"createpage-instructions": "Ilagay ang pamagat ng pahinang naisa mong likhain:",
+	"createpage-titleexists": "Umiiral ang isang pahinang may pamagat na [[$1]].\nNais mo bang baguhin ang umiiral na pahina?",
+	"createpage-tryagain": "Hindi.  Nais kong lumikha ng isang bagong pahinang may isang bukod na pamagat.",
+	"createpage-editexisting": "Oo. Ibig kong magambag sa umiiral na pahina."
+}

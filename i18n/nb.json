@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nghtwlkr"
+		]
+	},
+	"createpage": "Opprett en side",
+	"uwcreatepage-desc": "Legg til en [[Special:CreatePage|spesialside]] for å opprettelse av nye sider",
+	"createpage-instructions": "Skriv inn tittelen til siden du ønsker å opprette:",
+	"createpage-titleexists": "En side med tittelen [[$1]] finnes allerede.\nVil du redigere den eksisterende siden?",
+	"createpage-tryagain": "Nei. Jeg vil opprette en ny side med en annen tittel.",
+	"createpage-editexisting": "Ja. Jeg vil bidra til siden som finnes fra før."
+}

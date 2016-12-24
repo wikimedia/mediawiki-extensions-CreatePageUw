@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"createpage": "Eng Säit uleeën",
+	"uwcreatepage-desc": "Setzt eng [[Special:CreatePage|Spezialsäit]] derbäi fir Säiten unzeleeën",
+	"createpage-instructions": "Gitt den Titel vun där Säit un déi Dir uleeë wëllt:",
+	"createpage-titleexists": "Eng Säit mam Titel [[$1]] gëtt et schonn.\nWëll Dir déi Säit veränneren?",
+	"createpage-tryagain": "Neen. Ech wëll eng nei Säit mat engem aneren Titel uleeën.",
+	"createpage-editexisting": "Jo. Ech wëll déi Säit déi et gëtt änneren."
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Darth Kule",
+			"Fryed-peach",
+			"Purodha",
+			"Siebrand"
+		]
+	},
+	"createpage": "Name of special page [[Special:CreatePage]] in [[Special:SpecialPages]] and its title.\n{{Identical|Createpage}}",
+	"uwcreatepage-desc": "{{desc}}"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin"
+		]
+	},
+	"createpage": "Buat halaman",
+	"uwcreatepage-desc": "Menambahkan sebuah [[Special:CreatePage|halaman istimewa]] untuk membuat halaman baru",
+	"createpage-instructions": "Masukkan judul halaman yang ingin Anda buat:",
+	"createpage-titleexists": "Sebuah halaman dengan judul [[$1]] sudah ada.\nApakah Anda ingin menyunting halaman tersebut?",
+	"createpage-tryagain": "Tidak. Saya ingin membuat halaman baru dengan judul berbeda.",
+	"createpage-editexisting": "Ya, saya mau menyunting halaman tersebut."
+}

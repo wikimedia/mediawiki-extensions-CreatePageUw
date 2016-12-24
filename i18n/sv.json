@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gabbe.g",
+			"Najami",
+			"Rotsee"
+		]
+	},
+	"createpage": "Skapa en sida",
+	"uwcreatepage-desc": "Lägger till en [[Special:CreatePage|specialsida]] för att skapa nya sidor",
+	"createpage-instructions": "Skriv in titeln till sidan som du vill skapa:",
+	"createpage-titleexists": "En sida med titeln [[$1]] finns redan. Vill du redigera den?",
+	"createpage-tryagain": "Nej, jag vill skapa en ny sida med ett annat namn.",
+	"createpage-editexisting": "Ja, jag vill redigera den befintliga sidan."
+}

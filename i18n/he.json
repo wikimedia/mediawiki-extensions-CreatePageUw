@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rotemliss",
+			"YaronSh"
+		]
+	},
+	"createpage": "יצירת דף",
+	"uwcreatepage-desc": "הוספת [[Special:CreatePage|דף מיוחד]] ליצירת דפים חדשים",
+	"createpage-instructions": "כתבו את כותרת הדף שברצונכם ליצור:",
+	"createpage-titleexists": "כבר קיים דף בעל הכותרת [[$1]].\nהאם ברצונכם לערוך את הדף הקיים?",
+	"createpage-tryagain": "לא, אלא ליצור דף חדש בשם נפרד.",
+	"createpage-editexisting": "כן, לתרום לדף הקיים."
+}

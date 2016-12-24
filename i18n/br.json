@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup"
+		]
+	},
+	"createpage": "Krouiñ ur bajenn",
+	"uwcreatepage-desc": "Ouzhpennañ a ra ur [[Special:CreatePage|bajenn dibar]] evit krouiñ pajennoù nevez",
+	"createpage-instructions": "Merkañ titl ar bajenn a fell deoc'h krouiñ :",
+	"createpage-titleexists": "Ur bajenn dezhi an hevelep anv [[$1]] zo c'hoazh.\nHa fellout a ra deoc'h degas kemmoù war ar bajenn-se ?",
+	"createpage-tryagain": "Ket - C'hoant am eus da grouiñ ur bajenn nevez ganti un anv disheñvel",
+	"createpage-editexisting": "Ya, 'vat. C'hoant am eus da gemer perzh er bajenn-se."
+}

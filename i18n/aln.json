@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mdupont"
+		]
+	},
+	"createpage": "Krijo një faqe",
+	"uwcreatepage-desc": "Adds a [[Special:CreatePage|faqe speciale]] për të krijuar faqe të reja",
+	"createpage-instructions": "Shkruani titullin e faqes që ju dëshironi për të krijuar:",
+	"createpage-titleexists": "Një faqe me të [[$1]] titullin ekziston. Doni të redaktuar faqe që ekziston?",
+	"createpage-tryagain": "Nr i duan të krijojnë një faqe të re me një titull të dallueshëm.",
+	"createpage-editexisting": "Po. Unë dua të kontribuojë në faqe që ekziston."
+}

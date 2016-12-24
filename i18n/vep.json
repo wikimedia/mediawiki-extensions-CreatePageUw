@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Игорь Бродский"
+		]
+	},
+	"createpage": "Säta lehtpol'",
+	"uwcreatepage-desc": "Ližadab [[Special:CreatePage|specialižen lehtpolen]] uzid lehtpolid sätes",
+	"createpage-instructions": "Ku tahtoit säta lehtpol', kirjutagat sen nimi:",
+	"createpage-titleexists": "Lehtpol' [[$1]]-nimenke om jo olmas.\nTahtoižit redaktiruida olijad lehtpol't?",
+	"createpage-tryagain": "Ei. Tahtoižin säta uz' lehtpol' toižen nimenke.",
+	"createpage-editexisting": "Ka. Tahtoižin redaktiruida olijad lehtpol't."
+}

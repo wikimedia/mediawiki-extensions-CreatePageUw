@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31",
+			"ChrisPtDe"
+		]
+	},
+	"createpage": "Fâre una pâge",
+	"uwcreatepage-desc": "Apond una [[Special:CreatePage|pâge spèciâla]] por fâre des pâges novèles.",
+	"createpage-instructions": "Buchiéd lo titro de la pâge que vos souhètâd fâre :",
+	"createpage-tryagain": "Nan. Vuel fâre una pâge novèla avouéc un titro difèrent.",
+	"createpage-editexisting": "Ouè. Vuel contribuar a la pâge ègzistenta."
+}

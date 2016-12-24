@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"createpage": "Ccreje 'na vôsce",
+	"uwcreatepage-desc": "Aggiunge 'na [[Special:CreatePage|pàgena speciale]] pe ccrejà le pàggene nuève",
+	"createpage-instructions": "Mitte 'u titele d'a pàgene ca vuè ccù ccreje:",
+	"createpage-titleexists": "'Na pàgene cu 'u titele [[$1]] già esiste.\nNo è ca vuè ccù cange 'a pàgena esistende?",
+	"createpage-tryagain": "None, Ije vogghie ccù ccreje 'na pàgena nove cu 'nu titele diverse.",
+	"createpage-editexisting": "Sine. Ije vogghie ccù condrebbuische a 'a pàgene esistende."
+}

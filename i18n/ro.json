@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"KlaudiuMihaila",
+			"Minisarm"
+		]
+	},
+	"createpage": "Creează o pagină",
+	"uwcreatepage-desc": "Adaugă o [[Special:CreatePage|pagină specială]] pentru crearea de noi pagini",
+	"createpage-instructions": "Introduceți titlul paginii pe care doriți să o creați:",
+	"createpage-titleexists": "O pagină cu titlul [[$1]] deja există.\nDoriți să modificați pagina existentă?",
+	"createpage-tryagain": "Nu. Doresc să creez o pagină nouă cu un titlu diferit.",
+	"createpage-editexisting": "Da. Doresc să contribui la pagina existentă."
+}

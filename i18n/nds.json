@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Slomox"
+		]
+	},
+	"createpage": "Ne’e Sied schrieven",
+	"uwcreatepage-desc": "Föögt en [[Special:CreatePage|Spezialsied]] to, mit de een ne’e Sieden anleggen kann",
+	"createpage-instructions": "Schriev hier den Naam vun’e ne’e Sied rin:",
+	"createpage-titleexists": "Dat gifft al en Sied mit’n Naam [[$1]].\nWullt du de Sied, de dat al gifft, ännern?",
+	"createpage-tryagain": "Nee. Ik will en ne’e Sied mit en annern Naam anleggen.",
+	"createpage-editexisting": "Jo. Ik will wat to de Sied toschrieven, de dat al gifft."
+}

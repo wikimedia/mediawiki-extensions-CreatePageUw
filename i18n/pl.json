@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leinad"
+		]
+	},
+	"createpage": "Utwórz stronę",
+	"uwcreatepage-desc": "Dodaje [[Special:CreatePage|stronę specjalną]] do tworzenia nowych stron",
+	"createpage-instructions": "Podaj tytuł strony, którą chcesz utworzyć:",
+	"createpage-titleexists": "Strona o tytule [[$1]] już istnieje.\nCzy chcesz edytować istniejącą stronę?",
+	"createpage-tryagain": "Nie, chcę utworzyć nową stronę z odmiennym tytułem.",
+	"createpage-editexisting": "Tak, chcę edytować istniejącą stronę."
+}

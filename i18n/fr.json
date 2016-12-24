@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Grondin",
+			"IAlex",
+			"PieRRoMaN",
+			"Sherbrooke"
+		]
+	},
+	"createpage": "Créer une page",
+	"uwcreatepage-desc": "Ajoute une [[Special:CreatePage|page spéciale]] pour créer des nouvelles pages",
+	"createpage-instructions": "Entrez le titre de la page que vous souhaitez créer :",
+	"createpage-titleexists": "Une page existe déjà sous le nom [[$1]].\nDésirez-vous modifier la page existante ?",
+	"createpage-tryagain": "Non, je désire créer une nouvelle page avec un titre distinct.",
+	"createpage-editexisting": "Oui, je désire contribuer à la page existante."
+}

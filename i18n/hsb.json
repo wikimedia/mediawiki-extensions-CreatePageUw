@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"createpage": "Stronu wutworić",
+	"uwcreatepage-desc": "Přidawa [[Special:CreatePage|specialnu stronu]] za wutworjenje nowych stronow",
+	"createpage-instructions": "Zapodaj titul strony, kotruž chceš wutworić:",
+	"createpage-titleexists": "Strona z titulom [[$1]] hižo eksistuje.\nBy rady eksistowacu stronu wobdźěłał?",
+	"createpage-tryagain": "Ně. Bych rady nowu stronu z druhim titulom wutworił.",
+	"createpage-editexisting": "Haj. Bych rady eksistowacu stronu wobďzěłał."
+}

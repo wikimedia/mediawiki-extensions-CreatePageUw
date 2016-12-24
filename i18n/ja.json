@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Hosiryuhosi",
+			"Shirayuki"
+		]
+	},
+	"createpage": "ページ作成",
+	"uwcreatepage-desc": "ページを新規作成するための[[Special:CreatePage|特別ページ]]を追加する",
+	"createpage-instructions": "作成したいページの名前を入力：",
+	"createpage-titleexists": "[[$1]] という名前のページは既に存在します。\n既存のページを編集しますか?",
+	"createpage-tryagain": "いいえ。別の名前でページを新規作成します。",
+	"createpage-editexisting": "はい。既存のページへ投稿します。"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aleksandrit"
+		]
+	},
+	"createpage": "Створити сторінку",
+	"uwcreatepage-desc": "Додає [[Special:CreatePage|службову сторінку]] для створення нових сторінок",
+	"createpage-instructions": "Введіть назву сторінки, яку ви хочете створити:",
+	"createpage-titleexists": "Сторінка з назвою [[$1]] вже існує.\nЧи бажаєте ви редагувати існуючу сторінку?",
+	"createpage-tryagain": "Ні. Я хочу створити нову сторінку з іншою назвою.",
+	"createpage-editexisting": "Так. Я хочу внести свій внесок в існуючу сторінку."
+}

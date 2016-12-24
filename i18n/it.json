@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darth Kule"
+		]
+	},
+	"createpage": "Crea una pagina",
+	"uwcreatepage-desc": "Aggiunge una [[Special:CreatePage|pagina speciale]] per la creazione di nuove pagine",
+	"createpage-instructions": "Inserire il titolo della pagina che si desidera creare:",
+	"createpage-titleexists": "Esiste già una pagina con il titolo [[$1]].\nSi desidera modificare la pagina esistente?",
+	"createpage-tryagain": "No. Voglio creare una nuova pagina con un titolo distinto.",
+	"createpage-editexisting": "Sì. Voglio contribuire alla pagina esistente."
+}

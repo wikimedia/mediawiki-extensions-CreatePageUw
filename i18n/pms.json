@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"createpage": "Crea na pàgina",
+	"uwcreatepage-desc": "A gionta na [[Special:CreatePage|pàgina special]] për creé dle pàgine neuve",
+	"createpage-instructions": "Anseriss ël tìtol ëd la pàgina ch'it veule creé:",
+	"createpage-titleexists": "Na pàgina con ël tìtol [[$1]] a esist già.\nIt volës-to modifiché la pàgina esistenta?",
+	"createpage-tryagain": "No. Mi i veuj creé na neuva pàgina con un tìtol distint.",
+	"createpage-editexisting": "E'! Mi i veuj contribuì a la pàgina esistenta."
+}

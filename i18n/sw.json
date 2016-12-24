@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lloffiwr",
+			"Malangali"
+		]
+	},
+	"createpage": "Anzisha ukurasa",
+	"uwcreatepage-desc": "Huongeza [[Special:CreatePage|ukurasa maalum]] kwa ajili ya kuanzisha kurasa mpya",
+	"createpage-instructions": "Andika jina la ukurasa unaotaka kuanzisha:",
+	"createpage-titleexists": "Tayari kuna ukurasa kwenye jina [[$1]]. Je, unataka kuhariri ukurasa uliomo?",
+	"createpage-tryagain": "Hapana. Ninataka kuanzisha ukurasa mpya mwenye jina tofauti.",
+	"createpage-editexisting": "Ndiyo. Ninataka kusaidia kuhariri ukurasa uliomo."
+}

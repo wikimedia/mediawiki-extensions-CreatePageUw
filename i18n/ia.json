@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"createpage": "Crear un pagina",
+	"uwcreatepage-desc": "Adde un [[Special:CreatePage|pagina special]] pro crear nove paginas",
+	"createpage-instructions": "Entra le titulo del pagina que tu vole crear:",
+	"createpage-titleexists": "Un pagina con le titulo [[$1]] existe ja.\nVole tu modificar le pagina existente?",
+	"createpage-tryagain": "No. Io vole crear un nove pagina con un titulo distincte.",
+	"createpage-editexisting": "Si. Io vole contribuer al pagina existente."
+}

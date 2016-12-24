@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malafaya",
+			"Smeira"
+		]
+	},
+	"createpage": "Jafön padi",
+	"uwcreatepage-desc": "Läükon [[Special:CreatePage|padi patik]] ad jafön padis nulik",
+	"createpage-instructions": "Penolös tiädi pada, keli vilol jafön:",
+	"createpage-titleexists": "Pad labü tiäd: [[$1]] ya dabinon.\nVilol-li redakön padi dabinöl at?",
+	"createpage-tryagain": "No. Vilol jafön padi nulik labü tiädi votik.",
+	"createpage-editexisting": "Si. Vilol keblünön pade dabinöl."
+}

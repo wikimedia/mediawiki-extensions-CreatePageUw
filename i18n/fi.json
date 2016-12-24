@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cimon Avaro",
+			"Crt",
+			"Str4nd"
+		]
+	},
+	"createpage": "Luo sivu",
+	"uwcreatepage-desc": "Lisää [[Special:CreatePage|toimintosivun]] uusien sivujen luomiseen.",
+	"createpage-instructions": "Syötä nimi sivulle, jonka haluat luoda:",
+	"createpage-titleexists": "Sivu nimeltä [[$1]] on jo olemassa.\nHaluatko muokata olemassa olevaa sivua?",
+	"createpage-tryagain": "Ei. Haluan luoda uuden sivun, jolla on oma otsikkonsa.",
+	"createpage-editexisting": "Kyllä. Haluan muokata nykyistä sivua."
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"createpage": "Vytvoriť stránku",
+	"uwcreatepage-desc": "Pridáva [[Special:CreatePage|špeciálnu stránku]] na vytváranie nových stránok",
+	"createpage-instructions": "Zadajte názov stránky, ktorú si želáte vytvoriť:",
+	"createpage-titleexists": "Stránka s názvom [[$1]] už existuje.\nŽeláte si upraviť existujúcu stránku?",
+	"createpage-tryagain": "Nie, chcem vytvoriť novú stránku s iným názovm.",
+	"createpage-editexisting": "Áno, chcem prispieť k existujúcej stránke."
+}

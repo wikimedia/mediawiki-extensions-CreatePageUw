@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibou"
+		]
+	},
+	"createpage": "Sos aw xët",
+	"uwcreatepage-desc": "Yokk aw [[Special:CreatePage|xëtu jagleel]] ngir man a sos xët yu bees",
+	"createpage-instructions": "Dugalal koju xët wi nga bëgg a sos :",
+	"createpage-titleexists": "Aw xët wu tudd [[$1]] am na ba noppi.\nDanga bëgg a soppi xët wi fi nekk ?",
+	"createpage-tryagain": "Déet, Damaa bëgg a sos weneen xët ak been koj.",
+	"createpage-editexisting": "Waaw, damaa bëgg a cëru ak xët wi fi nekk."
+}

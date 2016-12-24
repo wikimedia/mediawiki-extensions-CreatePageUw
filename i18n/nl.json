@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"createpage": "Pagina aanmaken",
+	"uwcreatepage-desc": "Voegt een [[Special:CreatePage|speciale pagina]] toe voor het aanmaken van pagina's",
+	"createpage-instructions": "Voer de naam in van de pagina die u wilt aanmaken:",
+	"createpage-titleexists": "De pagina [[$1]] bestaat al.\nWilt u de bestaande pagina bewerken?",
+	"createpage-tryagain": "Nee. Ik wil een nieuwe pagina aanmaken met een nieuwe naam.",
+	"createpage-editexisting": "Ja. Ik wil bijdragen aan de bestaande pagina."
+}

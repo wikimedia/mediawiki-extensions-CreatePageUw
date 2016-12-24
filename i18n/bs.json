@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator"
+		]
+	},
+	"createpage": "Napravi stranicu",
+	"uwcreatepage-desc": "Dodaje [[Special:CreatePage|posebnu stranicu]] za pravljenje novih stranica",
+	"createpage-instructions": "Unesite naslov stranice koju želite napraviti:",
+	"createpage-titleexists": "Stranica sa naslovom [[$1]] već postoji.\nDa li želite uređivati postojeću stranicu?",
+	"createpage-tryagain": "Ne. Želim napraviti novu stranicu sa različitim naslovom.",
+	"createpage-editexisting": "Da. Želim doprinositi na postojećoj stranici."
+}

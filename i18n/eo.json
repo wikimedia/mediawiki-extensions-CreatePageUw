@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"createpage": "Krei paĝon",
+	"uwcreatepage-desc": "Aldonas [[Special:CreatePage|specialan paĝon]] por krei novajn paĝojn",
+	"createpage-instructions": "Enigu la titolon de la paĝo kiun vi volas krei:",
+	"createpage-titleexists": "Paĝo kun la titolo [[$1]] jam ekzistas.\nĈu vi volus redakti la ekzistantan paĝon?",
+	"createpage-tryagain": "Ne. Mi volas krei novan paĝon kun distinga titolo.",
+	"createpage-editexisting": "Jes. Mi volas kontribui al la ekzistanta paĝo."
+}

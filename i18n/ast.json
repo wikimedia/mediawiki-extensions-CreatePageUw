@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"createpage": "Crear una páxina",
+	"uwcreatepage-desc": "Amiesta una [[Special:CreatePage|páxina especial]] pa crear páxines nueves",
+	"createpage-instructions": "Escribi'l títulu de la páxina que quies crear:",
+	"createpage-titleexists": "Yá esiste una páxina titulada «[[$1]]».\n¿Quies editar la páxina esistente?",
+	"createpage-tryagain": "Non. Quiero crear una páxina nueva con un títulu distintu.",
+	"createpage-editexisting": "Si. Quiero contribuir na páxina esistente."
+}

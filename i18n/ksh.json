@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"createpage": "En neu Sigg aanlääje",
+	"uwcreatepage-desc": "Brengk en [[Special:CreatePage|Söndersigg]] för Sigge aanzelääje en et Wiki.",
+	"createpage-instructions": "Jif dä Tittel en, för di Sigg, di De aanlääje wells:",
+	"createpage-titleexists": "En Sigg met däm Tittel [[$1]] jit et ald.\nWells De di Sigg ändere?",
+	"createpage-tryagain": "Nä — Esch well en neu Sigg aanlääje met enem ander Tittel.",
+	"createpage-editexisting": "Jo — Esch well op dä Sigg jet beidraare, di et ald jitt."
+}

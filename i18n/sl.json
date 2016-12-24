@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334"
+		]
+	},
+	"createpage": "Ustvari stran",
+	"uwcreatepage-desc": "Doda [[Special:CreatePage|posebno stran]] za ustvarjanje novih strani",
+	"createpage-instructions": "Vnesite naslov strani, ki jo želite ustvariti:",
+	"createpage-titleexists": "Stran z naslovom [[$1]] že obstaja.\nŽelite urediti obstoječo stran?",
+	"createpage-tryagain": "Ne. Želim ustvariti novo stran z različnim naslovom.",
+	"createpage-editexisting": "Da. Želim prispevati k obstoječi strani."
+}

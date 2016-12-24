@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"OsamaK",
+			"Ouda"
+		]
+	},
+	"createpage": "أنشئ صفحة",
+	"uwcreatepage-desc": "يضيف [[Special:CreatePage|صفحة خاصة]] لإنشاء صفحات جديدة",
+	"createpage-instructions": "أدخل عنوان الصفحة التي تريد إنشاءها",
+	"createpage-titleexists": "صفحة بالعنوان [[$1]] موجودة بالفعل.\nهل تريد تعديل الصفحة الموجودة؟",
+	"createpage-tryagain": "لا. أريد إنشاء صفحة جديدة بعنوان مميز.",
+	"createpage-editexisting": "نعم. أريد المساهمة للصفحة الموجودة."
+}

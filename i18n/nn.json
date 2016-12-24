@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"createpage": "Opprett ei sida",
+	"uwcreatepage-desc": "Legg til ei [[Special:CreatePage|spesialsida]] for å oppretta nye sider",
+	"createpage-instructions": "Skriv inn tittelen til sida du ynskjer å oppretta:",
+	"createpage-titleexists": "Ei sida med tittelen [[$1]] finst frå før.\nVil du endra denne?",
+	"createpage-tryagain": "Nei. Eg vil oppretta ei ny sida med ein annan tittel.",
+	"createpage-editexisting": "Ja. Eg vil bidra til sida som finst frå før."
+}

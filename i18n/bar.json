@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mucalexx"
+		]
+	},
+	"createpage": "A neiche Seiten erstöin",
+	"uwcreatepage-desc": "Fiagt a  [[Special:CreatePage|Spezialseiten]] fyrs Erstöin vo ner neichen Seiten dazua",
+	"createpage-instructions": "Gib an Nåma vo da neich z' erstöianden Seiten ei:",
+	"createpage-titleexists": "A Seiten mid dem Nåma  [[$1]] existird bereits.\nMechadst de existirate Seiten beorwaten?",
+	"createpage-tryagain": "Naa - i mechad a neiche Seiten mid am åndern Titl åleeng.",
+	"createpage-editexisting": "Jo - I mechad de existirate Seiten beorwaten."
+}

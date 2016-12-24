@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"createpage": "Crear unha páxina",
+	"uwcreatepage-desc": "Engade unha [[Special:CreatePage|páxina especial]] para crear páxinas novas",
+	"createpage-instructions": "Insira o título da páxina que queira crear:",
+	"createpage-titleexists": "Xa existe unha páxina titulada \"[[$1]]\".\nQuere editar esa páxina?",
+	"createpage-tryagain": "Non. Quero crear unha páxina nova cun título distinto.",
+	"createpage-editexisting": "Si. Quero contribuír na páxina existente."
+}

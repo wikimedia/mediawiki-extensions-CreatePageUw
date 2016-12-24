@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matěj Grabovský"
+		]
+	},
+	"createpage": "Vytvořit stránku",
+	"uwcreatepage-desc": "Přidává [[Special:CreatePage|speciální stránku]] na vytváření nových stránek",
+	"createpage-instructions": "Zadejte název stránky, kterou si přejete vytvořit:",
+	"createpage-titleexists": "Stránka s názve [[$1]] už existuje.\nPřejete si upravit existující stránku?",
+	"createpage-tryagain": "Ne, chci vytvořit novou stránku s jiným názvem.",
+	"createpage-editexisting": "Ano, chci přispět k existující stránce."
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Glanthor Reviol"
+		]
+	},
+	"createpage": "Lap létrehozása",
+	"uwcreatepage-desc": "[[Special:CreatePage|Speciális lap]] új lapok létrehozásához",
+	"createpage-instructions": "Add meg a létrehozandó lap címét:",
+	"createpage-titleexists": "[[$1]] című lap már létezik.\nSzeretnéd szerkeszteni ezt a lapot?",
+	"createpage-tryagain": "Nem, szeretnék új lapot létrehozni eltérő címmel.",
+	"createpage-editexisting": "Igen, szeretném szerkeszteni a már létező lapot."
+}

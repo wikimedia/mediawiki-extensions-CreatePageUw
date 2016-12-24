@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"createpage": "Create a page",
+	"uwcreatepage-desc": "Adds a [[Special:CreatePage|special page]] for creating new pages",
+	"createpage-instructions": "Enter the title of the page you wish to create:",
+	"createpage-titleexists": "A page with the title [[$1]] already exists.\nWould you like to edit the existing page?",
+	"createpage-tryagain": "No. I want to create a new page with a distinct title.",
+	"createpage-editexisting": "Yes. I want to contribute to the existing page."
+}

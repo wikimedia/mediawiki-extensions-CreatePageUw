@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"SMP",
+			"Solde"
+		]
+	},
+	"createpage": "Crea una pàgina",
+	"uwcreatepage-desc": "Afegeix una [[Special:CreatePage|pàgina especial]] per a crear noves pàgines",
+	"createpage-instructions": "Introduïu el títol de la pàgina que vulgueu crear:",
+	"createpage-titleexists": "Ja existeix una pàgina amb el títol [[$1]].\nVoleu editar la pàgina existent?",
+	"createpage-tryagain": "No. Vull crear una pàgina nova amb un títol diferent.",
+	"createpage-editexisting": "Sí. Vull contribuir a la pàgina existent."
+}

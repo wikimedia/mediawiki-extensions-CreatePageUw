@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pras"
+		]
+	},
+	"createpage": "Gawé kaca",
+	"uwcreatepage-desc": "Tambahaké [[Special:CreatePage|Gawékaca]] kanggo nggawé kaca anyar",
+	"createpage-instructions": "Isi irah-irahan (judhul) kaca sing arep digawé:",
+	"createpage-titleexists": "Kaca kanthi irah-irahan (judhul) [[$1]] wis ana.\nApa panjenengan arep nyunting kaca iki?",
+	"createpage-tryagain": "Ora. Aku arep gawé kaca anyar kanthi judhul liya.",
+	"createpage-editexisting": "Iya. Aku arep ngisi kaca sing ana iki."
+}

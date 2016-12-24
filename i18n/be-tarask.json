@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by"
+		]
+	},
+	"createpage": "Стварыць старонку",
+	"uwcreatepage-desc": "Дадае [[Special:CreatePage|спэцыяльную старонку]] для стварэньня новых старонак",
+	"createpage-instructions": "Увядзіце назву старонкі, якую Вы жадаеце стварыць:",
+	"createpage-titleexists": "Старонка з назвай [[$1]] ужо існуе.\nВы жадаеце рэдагаваць існуючую старонку?",
+	"createpage-tryagain": "Не. Я жадаю стварыць новую старонку зь іншай назвай.",
+	"createpage-editexisting": "Так. Я жадаю рэдагаваць існуючую старонку."
+}

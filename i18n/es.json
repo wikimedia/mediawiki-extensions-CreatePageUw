@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover"
+		]
+	},
+	"createpage": "Crear una página",
+	"uwcreatepage-desc": "Agregar una [[Special:CreatePage|página especial]] para crear nuevas páginas",
+	"createpage-instructions": "Ingresa el título de la página que deseas crear:",
+	"createpage-titleexists": "Ya existe una página con el título [[$1]]. ¿Quieres editar la página que ya existe?",
+	"createpage-tryagain": "No – quiero crear una página nueva con un título diferente.",
+	"createpage-editexisting": "Sí – quiero contribuir a la página que ya existe."
+}

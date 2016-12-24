@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"createpage": "Bok napóraś",
+	"uwcreatepage-desc": "Pśidawa [[Special:CreatePage|specialny bok]] za napóranje nowych bokow",
+	"createpage-instructions": "Zapódaj titel boka, kótaryž coš napóraś:",
+	"createpage-titleexists": "Bok z titelom [[$1]] južo eksistěrujo.\nBy ty rady eksistěrujucy bok wobźěłaś?",
+	"createpage-tryagain": "Ně. Ja by rad nowy bok z drugim titelom napórał.",
+	"createpage-editexisting": "Jo. Ja by rad eksistěrujucy bok wobźěłał."
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Vinhtantran"
+		]
+	},
+	"createpage": "Tạo trang",
+	"uwcreatepage-desc": "Thêm một [[Special:CreatePage|trang đặc biệt]] để tạo trang mới",
+	"createpage-instructions": "Nhập vào tựa đề của trang bạn muốn tạo:",
+	"createpage-titleexists": "Đã tồn tại một trang có tựa đề [[$1]].\nBạn có muốn sửa đổi trang hiện có?",
+	"createpage-tryagain": "Không. Tôi muốn tạo một trang khác với tựa đề khác.",
+	"createpage-editexisting": "Có. Tôi muốn đóng góp vào trang hiện tại."
+}

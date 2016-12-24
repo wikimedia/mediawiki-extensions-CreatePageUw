@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Melancholie",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"createpage": "Neue Seite erstellen",
+	"uwcreatepage-desc": "Fügt eine [[Special:CreatePage|Spezialseite]] für das Erstellen von neuen Seiten hinzu",
+	"createpage-instructions": "Gib den Namen der neu zu erstellenden Seite ein:",
+	"createpage-titleexists": "Eine Seite mit dem Namen [[$1]] existiert bereits.\nMöchtest du die existierende Seite bearbeiten?",
+	"createpage-tryagain": "Nein – Ich möchte eine neue Seite mit einem anderen Titel anlegen.",
+	"createpage-editexisting": "Ja – Ich möchte die existierende Seite bearbeiten."
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia"
+		]
+	},
+	"createpage": "Cipta laman",
+	"uwcreatepage-desc": "Menyediakan [[Special:CreatePage|laman khas]] untuk membuat laman baru",
+	"createpage-instructions": "Isikan tajuk laman yang anda ingin cipta:",
+	"createpage-titleexists": "Laman bertajuk [[$1]] sudah wujud.\nAdakah anda inging menyunting laman yang sedia ada itu?",
+	"createpage-tryagain": "Tidak. Saya ingin membuat laman baru dengan tajuk yang berbeza.",
+	"createpage-editexisting": "Ya. Saya ingin menyumbang kepada halaman yang sedia ada."
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imre",
+			"Umherirrender"
+		]
+	},
+	"createpage-instructions": "Geben Sie den Namen der neu zu erstellenden Seite ein:",
+	"createpage-titleexists": "Eine Seite mit dem Namen [[$1]] existiert bereits.\nMöchten Sie die existierende Seite bearbeiten?"
+}

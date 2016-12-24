@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"createpage": "Crear una pagina",
+	"uwcreatepage-desc": "Apondre una [[Special:CreatePage|pagina especiala]] per crear de paginas novèlas",
+	"createpage-instructions": "Picar lo títol de la pagina que volètz crear :",
+	"createpage-titleexists": "Una pagina qu'a per títol [[$1]] existís ja.\nLa volètz modificar ?",
+	"createpage-tryagain": "Non, vòli crear una pagina novèla amb un títol diferent.",
+	"createpage-editexisting": "Òc, vòli contribuir dins aquesta pagina existenta."
+}
