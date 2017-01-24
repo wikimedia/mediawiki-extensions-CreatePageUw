@@ -29,6 +29,17 @@ class SpecialCreatePage extends FormSpecialPage {
 		$form->setWrapperLegendMsg( 'createpage' );
 	}
 
+	protected function getEditURL( Title $title ) {
+		global $wgCreatePageUwUseVE;
+		if ( $wgCreatePageUwUseVE ) {
+			return $title->getLocalURL( array(
+				'veaction' => 'edit'
+			) );
+		}
+
+		return $title->getEditURL();
+	}
+
 	public function onSubmit( array $params ) {
 		$out = $this->getOutput();
 
@@ -45,11 +56,10 @@ class SpecialCreatePage extends FormSpecialPage {
 
 		if ( $title->exists() ) {
 			$out->addWikiMsg( 'createpage-titleexists', $title->getFullText() );
-			$out->addHTML( Linker::linkKnown(
-				$title, $out->msg( 'createpage-editexisting' )->plain(),
-				array(),
-				array('action' => 'edit')
-			) );
+			$out->addHTML( Xml::tags( 'a', array(
+				'href' => $this->getEditURL( $title )
+			), $out->msg( 'createpage-editexisting' )->plain() ) );
+
 			$out->addHTML( Xml::element('br') );
 			$out->addHTML( Linker::linkKnown(
 				$this->getTitle(),
@@ -59,7 +69,7 @@ class SpecialCreatePage extends FormSpecialPage {
 			return Status::newGood();
 		}
 
-		$out->redirect( $title->getEditURL() );
+		$out->redirect( $this->getEditURL( $title ) );
 		return Status::newGood();
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"name": "CreatePageUw",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Edward Chernenko",
 	"url": "https://mediawiki.org/wiki/Extension:CreatePageUw",
 	"descriptionmsg": "uwcreatepage-desc",
@@ -20,5 +20,8 @@
 			"i18n"
 		]
 	},
-	"manifest_version": 1
+	"manifest_version": 1,
+	"config": {
+		"CreatePageUwUseVE": false
+	}
 }
