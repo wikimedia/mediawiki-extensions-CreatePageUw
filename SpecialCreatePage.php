@@ -72,4 +72,8 @@ class SpecialCreatePage extends FormSpecialPage {
 		$out->redirect( $this->getEditURL( $title ) );
 		return Status::newGood();
 	}
+
+	protected function getDisplayFormat() {
+		return 'ooui';
+	}
 }
