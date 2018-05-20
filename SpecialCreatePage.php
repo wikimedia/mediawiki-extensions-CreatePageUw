@@ -16,13 +16,13 @@ class SpecialCreatePage extends FormSpecialPage {
 	}
 
 	protected function getFormFields() {
-		return array(
-			'Title' => array(
+		return [
+			'Title' => [
 				'id' => 'mw-input-wptitle',
 				'type' => 'text',
 				'label-message' => 'createpage-instructions'
-			)
-		);
+			]
+		];
 	}
 
 	protected function alterForm( HTMLForm $form ) {
@@ -32,9 +32,9 @@ class SpecialCreatePage extends FormSpecialPage {
 	protected function getEditURL( Title $title ) {
 		global $wgCreatePageUwUseVE;
 		if ( $wgCreatePageUwUseVE ) {
-			return $title->getLocalURL( array(
+			return $title->getLocalURL( [
 				'veaction' => 'edit'
-			) );
+			] );
 		}
 
 		return $title->getEditURL();
@@ -56,9 +56,9 @@ class SpecialCreatePage extends FormSpecialPage {
 
 		if ( $title->exists() ) {
 			$out->addWikiMsg( 'createpage-titleexists', $title->getFullText() );
-			$out->addHTML( Xml::tags( 'a', array(
+			$out->addHTML( Xml::tags( 'a', [
 				'href' => $this->getEditURL( $title )
-			), $out->msg( 'createpage-editexisting' )->escaped() ) );
+			], $out->msg( 'createpage-editexisting' )->escaped() ) );
 
 			$out->addHTML( Xml::element('br') );
 			$out->addHTML( Linker::linkKnown(
