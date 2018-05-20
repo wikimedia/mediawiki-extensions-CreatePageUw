@@ -58,12 +58,12 @@ class SpecialCreatePage extends FormSpecialPage {
 			$out->addWikiMsg( 'createpage-titleexists', $title->getFullText() );
 			$out->addHTML( Xml::tags( 'a', array(
 				'href' => $this->getEditURL( $title )
-			), $out->msg( 'createpage-editexisting' )->plain() ) );
+			), $out->msg( 'createpage-editexisting' )->escaped() ) );
 
 			$out->addHTML( Xml::element('br') );
 			$out->addHTML( Linker::linkKnown(
 				$this->getTitle(),
-				$out->msg( 'createpage-tryagain' )->plain()
+				$out->msg( 'createpage-tryagain' )->escaped()
 			) );
 
 			return Status::newGood();
