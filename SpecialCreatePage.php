@@ -60,7 +60,7 @@ class SpecialCreatePage extends FormSpecialPage {
 				'href' => $this->getEditURL( $title )
 			], $out->msg( 'createpage-editexisting' )->escaped() ) );
 
-			$out->addHTML( Xml::element('br') );
+			$out->addHTML( Xml::element( 'br' ) );
 			$out->addHTML( Linker::linkKnown(
 				$this->getTitle(),
 				$out->msg( 'createpage-tryagain' )->escaped()
