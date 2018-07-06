@@ -45,7 +45,7 @@ class SpecialCreatePage extends FormSpecialPage {
 
 		$name = $params['Title'];
 		if ( !$name ) {
-			$out->redirect( $this->getTitle()->getFullURL() );
+			$out->redirect( $this->getPageTitle()->getFullURL() );
 			return Status::newGood();
 		}
 
@@ -62,7 +62,7 @@ class SpecialCreatePage extends FormSpecialPage {
 
 			$out->addHTML( Xml::element( 'br' ) );
 			$out->addHTML( Linker::linkKnown(
-				$this->getTitle(),
+				$this->getPageTitle(),
 				$out->msg( 'createpage-tryagain' )->escaped()
 			) );
 
