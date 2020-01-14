@@ -1,14 +1,14 @@
 <?php
 
 /**
-	@file
-	@brief Implements [[Special:CreatePage]].
-
-	We can link to Special:CreatePage when user asks "Where do I create a new page?".
-
-	Note: this is a modern port of "Uniwiki CreatePage" extension (obsolete in 2012).
-	Please see the original extension for authors.
-*/
+ * @file
+ * @brief Implements [[Special:CreatePage]].
+ *
+ * We can link to Special:CreatePage when user asks "Where do I create a new page?".
+ *
+ * Note: this is a modern port of "Uniwiki CreatePage" extension (obsolete in 2012).
+ * Please see the original extension for authors.
+ */
 
 class SpecialCreatePage extends FormSpecialPage {
 	public function __construct() {

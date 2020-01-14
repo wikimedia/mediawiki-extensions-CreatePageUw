@@ -16,14 +16,14 @@
 */
 
 /**
-	@file
-	@brief Checks [[Special:CreatePage]] special page.
-*/
+ * @file
+ * @brief Checks [[Special:CreatePage]] special page.
+ */
 
 /**
-	@covers SpecialCreatePage
-	@group Database
-*/
+ * @covers SpecialCreatePage
+ * @group Database
+ */
 class SpecialCreatePageTest extends SpecialPageTestBase {
 	protected function newSpecialPage() {
 		return new SpecialCreatePage();
@@ -35,10 +35,10 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-		@brief Checks the form when Special:CreatePage is opened.
-		@covers SpecialCreatePage::getFormFields
-		@covers SpecialCreatePage::alterForm
-	*/
+	 * @brief Checks the form when Special:CreatePage is opened.
+	 * @covers SpecialCreatePage::getFormFields
+	 * @covers SpecialCreatePage::alterForm
+	 */
 	public function testForm() {
 		list( $html, ) = $this->runSpecial();
 
@@ -71,12 +71,12 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-		@brief Checks redirect to the edit form when Special:CreatePage is submitted.
-		@covers SpecialCreatePage::onSubmit
-		@covers SpecialCreatePage::getEditURL
-		@note The redirect happens only when selected Title doesn't exist.
-		@dataProvider editorTypeDataProvider
-	*/
+	 * @brief Checks redirect to the edit form when Special:CreatePage is submitted.
+	 * @covers SpecialCreatePage::onSubmit
+	 * @covers SpecialCreatePage::getEditURL
+	 * @note The redirect happens only when selected Title doesn't exist.
+	 * @dataProvider editorTypeDataProvider
+	 */
 	public function testSubmitRedirect( $useVisualEditor ) {
 		$pageName = 'Some non-existent page';
 		$this->setMwGlobals( 'wgCreatePageUwUseVE', $useVisualEditor );
@@ -86,7 +86,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 			true
 		);
 
-		$this->assertEquals( '', $html,
+		$this->assertSame( '', $html,
 			'Special:CreatePage printed some content instead of a redirect.' );
 
 		# Check the Location header
@@ -103,11 +103,11 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-		@brief Checks "this page already exists" message when Special:CreatePage is submitted.
-		@covers SpecialCreatePage::onSubmit
-		@covers SpecialCreatePage::getEditURL
-		@dataProvider editorTypeDataProvider
-	*/
+	 * @brief Checks "this page already exists" message when Special:CreatePage is submitted.
+	 * @covers SpecialCreatePage::onSubmit
+	 * @covers SpecialCreatePage::getEditURL
+	 * @dataProvider editorTypeDataProvider
+	 */
 	public function testSubmitExisting( $useVisualEditor ) {
 		# Existing page is pre-created by MediaWikiTestCase::addCoreDBData()
 		$pageName = 'UTPage';
@@ -153,9 +153,9 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-		@brief Returns expected URL for editing the page $title.
-		@param $useVisualEditor True for VisualEditor, false for normal editor.
-	*/
+	 * @brief Returns expected URL for editing the page $title.
+	 * @param $useVisualEditor True for VisualEditor, false for normal editor.
+	 */
 	protected function getExpectedURL( Title $title, $useVisualEditor ) {
 		return $useVisualEditor ?
 			$title->getLocalURL( [ 'veaction' => 'edit' ] ) :
@@ -163,8 +163,8 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-		@brief Data provider for testSubmitRedirect() and testSubmitExisting().
-	*/
+	 * @brief Data provider for testSubmitRedirect() and testSubmitExisting().
+	 */
 	public function editorTypeDataProvider() {
 		return [
 			[ "edit in normal editor", [ false ] ],
@@ -173,11 +173,11 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-		@brief Render Special:CreatePage.
-		@param $query Query string parameter.
-		@param $isPosted true for POST request, false for GET request.
-		@returns HTML of the result.
-	*/
+	 * @brief Render Special:CreatePage.
+	 * @param $query Query string parameter.
+	 * @param $isPosted true for POST request, false for GET request.
+	 * @returns HTML of the result.
+	 */
 	protected function runSpecial( array $query = [], $isPosted = false ) {
 		// HTMLForm sometimes calls wfMessage() without context, so we must set $wgLang
 		global $wgLang;
