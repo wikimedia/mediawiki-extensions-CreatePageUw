@@ -122,7 +122,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 		$this->assertNull( $location,
 			'Special:CreatePage unexpectedly printed a redirect for an existing page.' );
 
-		$this->assertContains( "(createpage-titleexists: $pageName)", $html,
+		$this->assertStringContainsString( "(createpage-titleexists: $pageName)", $html,
 			'Special:CreatePage: no "page already exists" message.' );
 
 		$dom = new DomDocument;
@@ -176,7 +176,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	 * @brief Render Special:CreatePage.
 	 * @param $query Query string parameter.
 	 * @param $isPosted true for POST request, false for GET request.
-	 * @returns HTML of the result.
+	 * @return array
 	 */
 	protected function runSpecial( array $query = [], $isPosted = false ) {
 		// HTMLForm sometimes calls wfMessage() without context, so we must set $wgLang
