@@ -17,7 +17,7 @@
 
 /**
  * @file
- * @brief Checks [[Special:CreatePage]] special page.
+ * Checks [[Special:CreatePage]] special page.
  */
 
 /**
@@ -35,7 +35,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-	 * @brief Checks the form when Special:CreatePage is opened.
+	 * Checks the form when Special:CreatePage is opened.
 	 * @covers SpecialCreatePage::getFormFields
 	 * @covers SpecialCreatePage::alterForm
 	 */
@@ -71,7 +71,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-	 * @brief Checks redirect to the edit form when Special:CreatePage is submitted.
+	 * Checks redirect to the edit form when Special:CreatePage is submitted.
 	 * @covers SpecialCreatePage::onSubmit
 	 * @covers SpecialCreatePage::getEditURL
 	 * @note The redirect happens only when selected Title doesn't exist.
@@ -103,7 +103,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-	 * @brief Checks "this page already exists" message when Special:CreatePage is submitted.
+	 * Checks "this page already exists" message when Special:CreatePage is submitted.
 	 * @covers SpecialCreatePage::onSubmit
 	 * @covers SpecialCreatePage::getEditURL
 	 * @dataProvider editorTypeDataProvider
@@ -153,7 +153,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-	 * @brief Returns expected URL for editing the page $title.
+	 * Returns expected URL for editing the page $title.
 	 * @param $useVisualEditor True for VisualEditor, false for normal editor.
 	 */
 	protected function getExpectedURL( Title $title, $useVisualEditor ) {
@@ -163,7 +163,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-	 * @brief Data provider for testSubmitRedirect() and testSubmitExisting().
+	 * Data provider for testSubmitRedirect() and testSubmitExisting().
 	 */
 	public function editorTypeDataProvider() {
 		return [
@@ -173,7 +173,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-	 * @brief Render Special:CreatePage.
+	 * Render Special:CreatePage.
 	 * @param $query Query string parameter.
 	 * @param $isPosted true for POST request, false for GET request.
 	 * @return array

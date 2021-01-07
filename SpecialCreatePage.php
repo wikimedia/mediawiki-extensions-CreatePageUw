@@ -2,7 +2,7 @@
 
 /**
  * @file
- * @brief Implements [[Special:CreatePage]].
+ * Implements [[Special:CreatePage]].
  *
  * We can link to Special:CreatePage when user asks "Where do I create a new page?".
  *
