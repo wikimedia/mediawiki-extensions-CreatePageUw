@@ -154,7 +154,9 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 
 	/**
 	 * Returns expected URL for editing the page $title.
-	 * @param $useVisualEditor True for VisualEditor, false for normal editor.
+	 * @param Title $title
+	 * @param bool $useVisualEditor True for VisualEditor, false for normal editor.
+	 * @return string
 	 */
 	protected function getExpectedURL( Title $title, $useVisualEditor ) {
 		return $useVisualEditor ?
@@ -174,8 +176,8 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 
 	/**
 	 * Render Special:CreatePage.
-	 * @param $query Query string parameter.
-	 * @param $isPosted true for POST request, false for GET request.
+	 * @param array $query Query string parameter.
+	 * @param bool $isPosted true for POST request, false for GET request.
 	 * @return array
 	 */
 	protected function runSpecial( array $query = [], $isPosted = false ) {
