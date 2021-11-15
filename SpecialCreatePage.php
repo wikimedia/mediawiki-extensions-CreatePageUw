@@ -15,6 +15,7 @@ class SpecialCreatePage extends FormSpecialPage {
 		parent::__construct( 'CreatePage', 'createpage' );
 	}
 
+	/** @inheritDoc */
 	protected function getFormFields() {
 		return [
 			'Title' => [
@@ -25,13 +26,17 @@ class SpecialCreatePage extends FormSpecialPage {
 		];
 	}
 
+	/** @inheritDoc */
 	protected function alterForm( HTMLForm $form ) {
 		$form->setWrapperLegendMsg( 'createpage' );
 	}
 
+	/**
+	 * @param Title $title
+	 * @return string
+	 */
 	protected function getEditURL( Title $title ) {
-		global $wgCreatePageUwUseVE;
-		if ( $wgCreatePageUwUseVE ) {
+		if ( $this->getConfig()->get( 'CreatePageUwUseVE' ) ) {
 			return $title->getLocalURL( [
 				'veaction' => 'edit'
 			] );
@@ -40,6 +45,7 @@ class SpecialCreatePage extends FormSpecialPage {
 		return $title->getEditURL();
 	}
 
+	/** @inheritDoc */
 	public function onSubmit( array $params ) {
 		$out = $this->getOutput();
 
@@ -73,6 +79,7 @@ class SpecialCreatePage extends FormSpecialPage {
 		return Status::newGood();
 	}
 
+	/** @inheritDoc */
 	protected function getDisplayFormat() {
 		return 'ooui';
 	}
