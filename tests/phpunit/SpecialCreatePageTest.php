@@ -109,7 +109,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	 * @dataProvider editorTypeDataProvider
 	 */
 	public function testSubmitExisting( $useVisualEditor ) {
-		# Existing page is pre-created by MediaWikiTestCase::addCoreDBData()
+		# Existing page is pre-created by MediaWikiIntegrationTestCase::addCoreDBData()
 		$pageName = 'UTPage';
 		$this->setMwGlobals( 'wgCreatePageUwUseVE', $useVisualEditor );
 
