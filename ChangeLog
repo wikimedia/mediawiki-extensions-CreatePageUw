@@ -1,0 +1,16 @@
+List of changes between releases of Extension:CreatePageUw.
+
+== CreatePageUw 0.1.0 ==
+
+Features:
+* If user visits [[Special:CreatePage/Category]], then new page will be
+created in Category: namespace. (works with any namespace)
+
+== CreatePageUw 0.0.2 ==
+
+Features:
+* Add $wgCreatePageUwUseVE (if true, VisualEditor will be used).
+
+== CreatePageUw 0.8.1 ==
+
+Initial release.

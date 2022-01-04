@@ -1,19 +1,24 @@
 {
 	"name": "CreatePageUw",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"author": "Edward Chernenko",
 	"url": "https://www.mediawiki.org/wiki/Extension:CreatePageUw",
 	"descriptionmsg": "uwcreatepage-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.34.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"SpecialPages": {
-		"CreatePage": "SpecialCreatePage"
+		"CreatePage": {
+			"class": "MediaWiki\\CreatePageUw\\SpecialCreatePage",
+			"services": [
+				"NamespaceInfo"
+			]
+		}
 	},
 	"AutoloadClasses": {
-		"SpecialCreatePage": "SpecialCreatePage.php"
+		"MediaWiki\\CreatePageUw\\SpecialCreatePage": "SpecialCreatePage.php"
 	},
 	"ExtensionMessagesFiles": {
 		"CreatePageUwAlias": "CreatePage.alias.php"
@@ -23,8 +28,11 @@
 			"i18n"
 		]
 	},
-	"manifest_version": 1,
 	"config": {
-		"CreatePageUwUseVE": false
-	}
+		"CreatePageUwUseVE": {
+			"value": false,
+			"description": "If true, user will be redirected to VisualEditor."
+		}
+	},
+	"manifest_version": 2
 }

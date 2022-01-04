@@ -10,9 +10,28 @@
  * Please see the original extension for authors.
  */
 
+namespace MediaWiki\CreatePageUw;
+
+use FormSpecialPage;
+use HTMLForm;
+use Linker;
+use NamespaceInfo;
+use Status;
+use Title;
+use Xml;
+
 class SpecialCreatePage extends FormSpecialPage {
-	public function __construct() {
+
+	/** @var NamespaceInfo */
+	protected $namespaceInfo;
+
+	/**
+	 * @param NamespaceInfo $namespaceInfo
+	 */
+	public function __construct( NamespaceInfo $namespaceInfo ) {
 		parent::__construct( 'CreatePage', 'createpage' );
+
+		$this->namespaceInfo = $namespaceInfo;
 	}
 
 	/** @inheritDoc */
@@ -49,17 +68,18 @@ class SpecialCreatePage extends FormSpecialPage {
 	public function onSubmit( array $params ) {
 		$out = $this->getOutput();
 
-		$name = $params['Title'];
-		if ( !$name ) {
+		$pageName = $params['Title'];
+		if ( !$pageName ) {
 			$out->redirect( $this->getPageTitle()->getFullURL() );
 			return Status::newGood();
 		}
 
-		$title = Title::newFromText( $name );
-		if ( !$title ) {
-			return Status::newFatal( 'badtitletext' );
-		}
+		// If the user has visited [[Special:CreatePage/Category]] or [[Special:CreatePage/Template]],
+		// and the user hasn't typed an explicit valid prefix (e.g. "Talk:Something"),
+		// then new page should be created in Category: or Template: namespace respectively.
+		$namespaceIndex = $this->namespaceInfo->getCanonicalIndex( strtolower( $this->par ) ) ?? NS_MAIN;
 
+		$title = Title::newFromTextThrow( $pageName, $namespaceIndex );
 		if ( $title->exists() ) {
 			$out->addWikiMsg( 'createpage-titleexists', $title->getFullText() );
 			$out->addHTML( Xml::tags( 'a', [
