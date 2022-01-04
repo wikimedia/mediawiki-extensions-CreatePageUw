@@ -2,7 +2,7 @@
 
 /*
 	Extension:CreatedPageUw - MediaWiki extension.
-	Copyright (C) 2018 Edward Chernenko.
+	Copyright (C) 2018-2022 Edward Chernenko.
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -21,12 +21,12 @@
  */
 
 /**
- * @covers SpecialCreatePage
+ * @covers MediaWiki\CreatePageUw\SpecialCreatePage
  * @group Database
  */
 class SpecialCreatePageTest extends SpecialPageTestBase {
 	protected function newSpecialPage() {
-		return new SpecialCreatePage();
+		return $this->getServiceContainer()->getSpecialPageFactory()->getPage( 'CreatePage' );
 	}
 
 	public function needsDB() {
@@ -36,8 +36,8 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 
 	/**
 	 * Checks the form when Special:CreatePage is opened.
-	 * @covers SpecialCreatePage::getFormFields
-	 * @covers SpecialCreatePage::alterForm
+	 * @covers MediaWiki\CreatePageUw\SpecialCreatePage::getFormFields
+	 * @covers MediaWiki\CreatePageUw\SpecialCreatePage::alterForm
 	 */
 	public function testForm() {
 		list( $html, ) = $this->runSpecial();
@@ -72,18 +72,25 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 
 	/**
 	 * Checks redirect to the edit form when Special:CreatePage is submitted.
-	 * @covers SpecialCreatePage::onSubmit
-	 * @covers SpecialCreatePage::getEditURL
+	 * @param array $opts
+	 *
+	 * @covers MediaWiki\CreatePageUw\SpecialCreatePage::onSubmit
+	 * @covers MediaWiki\CreatePageUw\SpecialCreatePage::getEditURL
 	 * @note The redirect happens only when selected Title doesn't exist.
-	 * @dataProvider editorTypeDataProvider
+	 * @dataProvider editorTypeAndSubpageDataProvider
 	 */
-	public function testSubmitRedirect( $useVisualEditor ) {
-		$pageName = 'Some non-existent page';
+	public function testSubmitRedirect( array $opts ) {
+		$useVisualEditor = $opts['useVisualEditor'] ?? false;
+		$subpage = $opts['subpage'] ?? '';
+		$enteredText = $opts['enteredText'] ?? 'some non-existent page';
+		$expectedTitle = Title::newFromText( $opts['expectedPageName'] ?? $enteredText );
+
 		$this->setMwGlobals( 'wgCreatePageUwUseVE', $useVisualEditor );
 
 		list( $html, $fauxResponse ) = $this->runSpecial(
-			[ 'wpTitle' => $pageName ],
-			true
+			[ 'wpTitle' => $enteredText ],
+			true,
+			$subpage
 		);
 
 		$this->assertSame( '', $html,
@@ -95,7 +102,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 			'Special:CreatePage: there is no Location header.' );
 
 		$expectedLocation = wfExpandUrl( $this->getExpectedURL(
-			Title::newFromText( $pageName ),
+			$expectedTitle,
 			$useVisualEditor
 		) );
 		$this->assertEquals( $expectedLocation, $location,
@@ -103,9 +110,40 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
+	 * Data provider for testSubmitRedirect().
+	 */
+	public function editorTypeAndSubpageDataProvider() {
+		return [
+			'edit in VisualEditor' => [ [ 'useVisualEditor' => true ] ],
+			'normal editor, no subpage' => [ [] ],
+			'normal editor, subpage /Template' => [ [
+				'subpage' => 'Template',
+				'enteredText' => 'name of non-existent template',
+				'expectedPageName' => 'Template:Name of non-existent template'
+			] ],
+			'normal editor, subpage /template (in lowercase)' => [ [
+				'subpage' => 'template',
+				'enteredText' => 'name of non-existent template',
+				'expectedPageName' => 'Template:Name of non-existent template'
+			] ],
+			'normal editor, subpage /Template, but title has explicit valid prefix Category:' => [ [
+				'subpage' => 'Template',
+				'enteredText' => 'category:pages where subpage was ignored',
+				'expectedPageName' => 'Category:Pages where subpage was ignored'
+			] ],
+			'normal editor, subpage /Template, title has \':\', but not an existing namespace prefix' => [ [
+				'subpage' => 'Category',
+				'enteredText' => 'Cats:Serval',
+				'expectedPageName' => 'Category:Cats:Serval'
+			] ]
+		];
+	}
+
+	/**
 	 * Checks "this page already exists" message when Special:CreatePage is submitted.
-	 * @covers SpecialCreatePage::onSubmit
-	 * @covers SpecialCreatePage::getEditURL
+	 * @param bool $useVisualEditor
+	 * @covers MediaWiki\CreatePageUw\SpecialCreatePage::onSubmit
+	 * @covers MediaWiki\CreatePageUw\SpecialCreatePage::getEditURL
 	 * @dataProvider editorTypeDataProvider
 	 */
 	public function testSubmitExisting( $useVisualEditor ) {
@@ -153,6 +191,28 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
+	 * Data provider for testSubmitExisting().
+	 */
+	public function editorTypeDataProvider() {
+		return [
+			"edit in normal editor" => [ false ],
+			"edit in VisualEditor" => [ true ]
+		];
+	}
+
+	/**
+	 * Checks "entered title is invalid" situation when Special:CreatePage is submitted.
+	 * @covers MediaWiki\CreatePageUw\SpecialCreatePage::onSubmit
+	 */
+	public function testSubmitInvalidTitle() {
+		$this->expectException( MalformedTitleException::class );
+		$this->runSpecial(
+			[ 'wpTitle' => 'Symbol "[" is not allowed in titles' ],
+			true
+		);
+	}
+
+	/**
 	 * Returns expected URL for editing the page $title.
 	 * @param Title $title
 	 * @param bool $useVisualEditor True for VisualEditor, false for normal editor.
@@ -165,28 +225,19 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	}
 
 	/**
-	 * Data provider for testSubmitRedirect() and testSubmitExisting().
-	 */
-	public function editorTypeDataProvider() {
-		return [
-			[ "edit in normal editor", [ false ] ],
-			[ "edit in VisualEditor", [ true ] ]
-		];
-	}
-
-	/**
 	 * Render Special:CreatePage.
 	 * @param array $query Query string parameter.
 	 * @param bool $isPosted true for POST request, false for GET request.
+	 * @param string $subpage
 	 * @return array
 	 */
-	protected function runSpecial( array $query = [], $isPosted = false ) {
+	protected function runSpecial( array $query = [], $isPosted = false, $subpage = '' ) {
 		// HTMLForm sometimes calls wfMessage() without context, so we must set $wgLang
 		global $wgLang;
 		$wgLang = Language::factory( 'qqx' );
 
 		return $this->executeSpecialPage(
-			'',
+			$subpage,
 			new FauxRequest( $query, $isPosted ),
 			$wgLang
 		);
