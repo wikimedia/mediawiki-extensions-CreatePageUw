@@ -1,4 +1,5 @@
 {
+	"name": "CreatePageUw",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
