@@ -14,7 +14,6 @@ namespace MediaWiki\CreatePageUw;
 
 use FormSpecialPage;
 use HTMLForm;
-use Linker;
 use NamespaceInfo;
 use Status;
 use Title;
@@ -87,9 +86,9 @@ class SpecialCreatePage extends FormSpecialPage {
 			], $out->msg( 'createpage-editexisting' )->escaped() ) );
 
 			$out->addHTML( Xml::element( 'br' ) );
-			$out->addHTML( Linker::linkKnown(
+			$out->addHTML( $this->getLinkRenderer()->makeLink(
 				$this->getPageTitle(),
-				$out->msg( 'createpage-tryagain' )->escaped()
+				$out->msg( 'createpage-tryagain' )->text()
 			) );
 
 			return Status::newGood();
