@@ -112,7 +112,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	/**
 	 * Data provider for testSubmitRedirect().
 	 */
-	public function editorTypeAndSubpageDataProvider() {
+	public static function editorTypeAndSubpageDataProvider() {
 		return [
 			'edit in VisualEditor' => [ [ 'useVisualEditor' => true ] ],
 			'normal editor, no subpage' => [ [] ],
@@ -193,7 +193,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	/**
 	 * Data provider for testSubmitExisting().
 	 */
-	public function editorTypeDataProvider() {
+	public static function editorTypeDataProvider() {
 		return [
 			"edit in normal editor" => [ false ],
 			"edit in VisualEditor" => [ true ]
