@@ -29,11 +29,6 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 		return $this->getServiceContainer()->getSpecialPageFactory()->getPage( 'CreatePage' );
 	}
 
-	public function needsDB() {
-		// Needs existing page to be precreated in addCoreDBData()
-		return true;
-	}
-
 	/**
 	 * Checks the form when Special:CreatePage is opened.
 	 * @covers MediaWiki\CreatePageUw\SpecialCreatePage::getFormFields
