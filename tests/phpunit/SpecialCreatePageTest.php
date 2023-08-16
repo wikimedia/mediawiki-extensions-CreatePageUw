@@ -142,8 +142,8 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	 * @dataProvider editorTypeDataProvider
 	 */
 	public function testSubmitExisting( $useVisualEditor ) {
-		# Existing page is pre-created by MediaWikiIntegrationTestCase::addCoreDBData()
-		$pageName = 'UTPage';
+		$title = $this->getExistingTestPage()->getTitle();
+		$pageName = $title->getText();
 		$this->setMwGlobals( 'wgCreatePageUwUseVE', $useVisualEditor );
 
 		list( $html, $fauxResponse ) = $this->runSpecial(
@@ -168,7 +168,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 			'Special:CreatePage: link "edit existing page" not found.' );
 
 		$this->assertEquals(
-			$this->getExpectedURL( Title::newFromText( $pageName ), $useVisualEditor ),
+			$this->getExpectedURL( $title, $useVisualEditor ),
 			$editExistingLink->getAttribute( 'href' ),
 			'Special:CreatePage: incorrect URL of "edit existing page" link.'
 		);
