@@ -265,6 +265,11 @@ $specialPageAliases['sr-ec'] = [
 	'CreatePage' => [ 'Направи_страницу' ],
 ];
 
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$specialPageAliases['sr-el'] = [
+	'CreatePage' => [ 'Napravi_stranicu' ],
+];
+
 /** Sundanese (Basa Sunda) */
 $specialPageAliases['su'] = [
 	'CreatePage' => [ 'JieunKaca' ],
