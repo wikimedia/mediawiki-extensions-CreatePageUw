@@ -35,7 +35,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 	 * @covers MediaWiki\CreatePageUw\SpecialCreatePage::alterForm
 	 */
 	public function testForm() {
-		list( $html, ) = $this->runSpecial();
+		[ $html, ] = $this->runSpecial();
 
 		$dom = new DomDocument;
 		$dom->loadHTML( $html );
@@ -82,7 +82,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 
 		$this->setMwGlobals( 'wgCreatePageUwUseVE', $useVisualEditor );
 
-		list( $html, $fauxResponse ) = $this->runSpecial(
+		[ $html, $fauxResponse ] = $this->runSpecial(
 			[ 'wpTitle' => $enteredText ],
 			true,
 			$subpage
@@ -146,7 +146,7 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 		$pageName = $title->getText();
 		$this->setMwGlobals( 'wgCreatePageUwUseVE', $useVisualEditor );
 
-		list( $html, $fauxResponse ) = $this->runSpecial(
+		[ $html, $fauxResponse ] = $this->runSpecial(
 			[ 'wpTitle' => $pageName ],
 			true
 		);
