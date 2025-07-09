@@ -20,6 +20,9 @@
  * Checks [[Special:CreatePage]] special page.
  */
 
+use MediaWiki\Request\FauxRequest;
+use MediaWiki\Title\Title;
+
 /**
  * @covers MediaWiki\CreatePageUw\SpecialCreatePage
  * @group Database

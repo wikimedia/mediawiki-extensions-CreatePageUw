@@ -12,12 +12,12 @@
 
 namespace MediaWiki\CreatePageUw;
 
-use FormSpecialPage;
-use HTMLForm;
-use NamespaceInfo;
-use Status;
-use Title;
-use Xml;
+use MediaWiki\HTMLForm\HTMLForm;
+use MediaWiki\SpecialPage\FormSpecialPage;
+use MediaWiki\Status\Status;
+use MediaWiki\Title\NamespaceInfo;
+use MediaWiki\Title\Title;
+use MediaWiki\Xml\Xml;
 
 class SpecialCreatePage extends FormSpecialPage {
 
@@ -76,7 +76,7 @@ class SpecialCreatePage extends FormSpecialPage {
 		// If the user has visited [[Special:CreatePage/Category]] or [[Special:CreatePage/Template]],
 		// and the user hasn't typed an explicit valid prefix (e.g. "Talk:Something"),
 		// then new page should be created in Category: or Template: namespace respectively.
-		$namespaceIndex = $this->namespaceInfo->getCanonicalIndex( strtolower( $this->par ) ) ?? NS_MAIN;
+		$namespaceIndex = $this->namespaceInfo->getCanonicalIndex( strtolower( $this->par ?? '' ) ) ?? NS_MAIN;
 
 		$title = Title::newFromTextThrow( $pageName, $namespaceIndex );
 		if ( $title->exists() ) {
