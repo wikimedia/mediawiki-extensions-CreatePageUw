@@ -99,9 +99,10 @@ class SpecialCreatePageTest extends SpecialPageTestBase {
 		$this->assertNotNull( $location,
 			'Special:CreatePage: there is no Location header.' );
 
-		$expectedLocation = wfExpandUrl( $this->getExpectedURL(
-			$expectedTitle,
-			$useVisualEditor
+		$expectedLocation = $this->getServiceContainer()->getUrlUtils()->expand(
+			$this->getExpectedURL(
+				$expectedTitle,
+				$useVisualEditor
 		) );
 		$this->assertEquals( $expectedLocation, $location,
 			'Special:CreatePage: unexpected value of Location header.' );
