@@ -12,12 +12,12 @@
 
 namespace MediaWiki\CreatePageUw;
 
+use MediaWiki\Html\Html;
 use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\SpecialPage\FormSpecialPage;
 use MediaWiki\Status\Status;
 use MediaWiki\Title\NamespaceInfo;
 use MediaWiki\Title\Title;
-use MediaWiki\Xml\Xml;
 
 class SpecialCreatePage extends FormSpecialPage {
 
@@ -81,11 +81,11 @@ class SpecialCreatePage extends FormSpecialPage {
 		$title = Title::newFromTextThrow( $pageName, $namespaceIndex );
 		if ( $title->exists() ) {
 			$out->addWikiMsg( 'createpage-titleexists', $title->getFullText() );
-			$out->addHTML( Xml::tags( 'a', [
+			$out->addHTML( Html::rawElement( 'a', [
 				'href' => $this->getEditURL( $title )
 			], $out->msg( 'createpage-editexisting' )->escaped() ) );
 
-			$out->addHTML( Xml::element( 'br' ) );
+			$out->addHTML( Html::element( 'br' ) );
 			$out->addHTML( $this->getLinkRenderer()->makeLink(
 				$this->getPageTitle(),
 				$out->msg( 'createpage-tryagain' )->text()
