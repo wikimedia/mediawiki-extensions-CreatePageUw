@@ -28,9 +28,14 @@ class SpecialCreatePage extends FormSpecialPage {
 	 * @param NamespaceInfo $namespaceInfo
 	 */
 	public function __construct( NamespaceInfo $namespaceInfo ) {
-		parent::__construct( 'CreatePage', 'createpage' );
+		parent::__construct( 'CreatePage' );
 
 		$this->namespaceInfo = $namespaceInfo;
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'createpage';
 	}
 
 	/** @inheritDoc */
